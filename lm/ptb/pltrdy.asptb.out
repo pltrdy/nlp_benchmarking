@@ -1,0 +1,47 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+WARNING:tensorflow:From word_lm.py:490 in main.: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.898
+pciBusID 0000:02:00.0
+Total memory: 7.92GiB
+Free memory: 7.67GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:02:00.0)
+Starting training from epoch 1 using sampledsoftmax
+Epoch: 1 Learning rate: 1.000
+0.001 perplexity: 3687.270 speed: 7439 wps
+Saving default/ep_1_step_1.ckpt
+0.101 perplexity: 939.832 speed: 21043 wps
+Saving default/ep_1_step_73.ckpt
+0.200 perplexity: 626.196 speed: 21916 wps
+Saving default/ep_1_step_145.ckpt
+0.299 perplexity: 493.814 speed: 22220 wps
+Saving default/ep_1_step_217.ckpt
+0.398 perplexity: 410.800 speed: 22430 wps
+Saving default/ep_1_step_289.ckpt
+0.497 perplexity: 359.233 speed: 22442 wps
+Saving default/ep_1_step_361.ckpt
+0.596 perplexity: 324.820 speed: 22527 wps
+Saving default/ep_1_step_433.ckpt
+0.696 perplexity: 296.652 speed: 22497 wps
+Saving default/ep_1_step_505.ckpt
+0.795 perplexity: 274.625 speed: 22533 wps
+Saving default/ep_1_step_577.ckpt
+0.894 perplexity: 257.592 speed: 22565 wps
+Saving default/ep_1_step_649.ckpt
+0.993 perplexity: 242.365 speed: 22597 wps
+Saving default/ep_1_step_721.ckpt
+Epoch: 1 Train Perplexity: 241.524
+Epoch: 1 Valid Perplexity: 250.474
+Epoch: 2 Learning rate: 1.000
+0.001 perplexity: 157.944 speed: 34575 wps
+Saving default/ep_2_step_1.ckpt

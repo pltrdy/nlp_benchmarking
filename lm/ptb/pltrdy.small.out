@@ -1,0 +1,348 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+WARNING:tensorflow:From word_lm.py:490 in main.: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.898
+pciBusID 0000:02:00.0
+Total memory: 7.92GiB
+Free memory: 7.66GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:02:00.0)
+Starting training from epoch 1 using sampledsoftmax
+Epoch: 1 Learning rate: 1.000
+0.000 perplexity: 3775.449 speed: 2900 wps
+Saving small/ep_1_step_1.ckpt
+0.100 perplexity: 436.215 speed: 20382 wps
+Saving small/ep_1_step_233.ckpt
+0.200 perplexity: 316.463 speed: 21188 wps
+Saving small/ep_1_step_465.ckpt
+0.300 perplexity: 256.218 speed: 21473 wps
+Saving small/ep_1_step_697.ckpt
+0.400 perplexity: 219.568 speed: 21624 wps
+Saving small/ep_1_step_929.ckpt
+0.500 perplexity: 197.144 speed: 21690 wps
+Saving small/ep_1_step_1161.ckpt
+0.600 perplexity: 177.718 speed: 21852 wps
+Saving small/ep_1_step_1393.ckpt
+0.700 perplexity: 164.450 speed: 21830 wps
+Saving small/ep_1_step_1625.ckpt
+0.799 perplexity: 154.470 speed: 21866 wps
+Saving small/ep_1_step_1857.ckpt
+0.899 perplexity: 144.965 speed: 21889 wps
+Saving small/ep_1_step_2089.ckpt
+0.999 perplexity: 137.236 speed: 21904 wps
+Saving small/ep_1_step_2321.ckpt
+Epoch: 1 Train Perplexity: 137.222
+Epoch: 1 Valid Perplexity: 179.560
+Epoch: 2 Learning rate: 1.000
+0.000 perplexity: 113.189 speed: 9704 wps
+Saving small/ep_2_step_1.ckpt
+0.100 perplexity: 78.682 speed: 21734 wps
+Saving small/ep_2_step_233.ckpt
+0.200 perplexity: 81.493 speed: 22199 wps
+Saving small/ep_2_step_465.ckpt
+0.300 perplexity: 79.209 speed: 22010 wps
+Saving small/ep_2_step_697.ckpt
+0.400 perplexity: 77.205 speed: 22040 wps
+Saving small/ep_2_step_929.ckpt
+0.500 perplexity: 76.149 speed: 22039 wps
+Saving small/ep_2_step_1161.ckpt
+0.600 perplexity: 73.768 speed: 22030 wps
+Saving small/ep_2_step_1393.ckpt
+0.700 perplexity: 72.652 speed: 22126 wps
+Saving small/ep_2_step_1625.ckpt
+0.799 perplexity: 71.841 speed: 22080 wps
+Saving small/ep_2_step_1857.ckpt
+0.899 perplexity: 70.051 speed: 22083 wps
+Saving small/ep_2_step_2089.ckpt
+0.999 perplexity: 68.780 speed: 22085 wps
+Saving small/ep_2_step_2321.ckpt
+Epoch: 2 Train Perplexity: 68.780
+Epoch: 2 Valid Perplexity: 142.610
+Epoch: 3 Learning rate: 1.000
+0.000 perplexity: 80.700 speed: 17214 wps
+Saving small/ep_3_step_1.ckpt
+0.100 perplexity: 54.621 speed: 21855 wps
+Saving small/ep_3_step_233.ckpt
+0.200 perplexity: 58.447 speed: 21886 wps
+Saving small/ep_3_step_465.ckpt
+0.300 perplexity: 57.307 speed: 22102 wps
+Saving small/ep_3_step_697.ckpt
+0.400 perplexity: 56.412 speed: 21990 wps
+Saving small/ep_3_step_929.ckpt
+0.500 perplexity: 56.081 speed: 21993 wps
+Saving small/ep_3_step_1161.ckpt
+0.600 perplexity: 54.730 speed: 21995 wps
+Saving small/ep_3_step_1393.ckpt
+0.700 perplexity: 54.379 speed: 21975 wps
+Saving small/ep_3_step_1625.ckpt
+0.799 perplexity: 54.202 speed: 22052 wps
+Saving small/ep_3_step_1857.ckpt
+0.899 perplexity: 53.159 speed: 22003 wps
+Saving small/ep_3_step_2089.ckpt
+0.999 perplexity: 52.529 speed: 22000 wps
+Saving small/ep_3_step_2321.ckpt
+Epoch: 3 Train Perplexity: 52.529
+Epoch: 3 Valid Perplexity: 130.874
+Epoch: 4 Learning rate: 1.000
+0.000 perplexity: 65.641 speed: 15474 wps
+Saving small/ep_4_step_1.ckpt
+0.100 perplexity: 44.150 speed: 21935 wps
+Saving small/ep_4_step_233.ckpt
+0.200 perplexity: 47.857 speed: 21975 wps
+Saving small/ep_4_step_465.ckpt
+0.300 perplexity: 47.023 speed: 21960 wps
+Saving small/ep_4_step_697.ckpt
+0.400 perplexity: 46.484 speed: 22123 wps
+Saving small/ep_4_step_929.ckpt
+0.500 perplexity: 46.375 speed: 22021 wps
+Saving small/ep_4_step_1161.ckpt
+0.600 perplexity: 45.475 speed: 22018 wps
+Saving small/ep_4_step_1393.ckpt
+0.700 perplexity: 45.342 speed: 22012 wps
+Saving small/ep_4_step_1625.ckpt
+0.799 perplexity: 45.369 speed: 22000 wps
+Saving small/ep_4_step_1857.ckpt
+0.899 perplexity: 44.597 speed: 22070 wps
+Saving small/ep_4_step_2089.ckpt
+0.999 perplexity: 44.235 speed: 22034 wps
+Saving small/ep_4_step_2321.ckpt
+Epoch: 4 Train Perplexity: 44.234
+Epoch: 4 Valid Perplexity: 126.176
+Epoch: 5 Learning rate: 0.500
+0.000 perplexity: 56.400 speed: 14487 wps
+Saving small/ep_5_step_1.ckpt
+0.100 perplexity: 37.190 speed: 21957 wps
+Saving small/ep_5_step_233.ckpt
+0.200 perplexity: 39.761 speed: 21970 wps
+Saving small/ep_5_step_465.ckpt
+0.300 perplexity: 38.547 speed: 21958 wps
+Saving small/ep_5_step_697.ckpt
+0.400 perplexity: 37.749 speed: 21938 wps
+Saving small/ep_5_step_929.ckpt
+0.500 perplexity: 37.332 speed: 22087 wps
+Saving small/ep_5_step_1161.ckpt
+0.600 perplexity: 36.288 speed: 22013 wps
+Saving small/ep_5_step_1393.ckpt
+0.700 perplexity: 35.894 speed: 22009 wps
+Saving small/ep_5_step_1625.ckpt
+0.799 perplexity: 35.609 speed: 22002 wps
+Saving small/ep_5_step_1857.ckpt
+0.899 perplexity: 34.708 speed: 21988 wps
+Saving small/ep_5_step_2089.ckpt
+0.999 perplexity: 34.127 speed: 22052 wps
+Saving small/ep_5_step_2321.ckpt
+Epoch: 5 Train Perplexity: 34.126
+Epoch: 5 Valid Perplexity: 118.723
+Epoch: 6 Learning rate: 0.250
+0.000 perplexity: 46.514 speed: 17761 wps
+Saving small/ep_6_step_1.ckpt
+0.100 perplexity: 30.979 speed: 21995 wps
+Saving small/ep_6_step_233.ckpt
+0.200 perplexity: 33.240 speed: 22016 wps
+Saving small/ep_6_step_465.ckpt
+0.300 perplexity: 32.155 speed: 22009 wps
+Saving small/ep_6_step_697.ckpt
+0.400 perplexity: 31.487 speed: 22000 wps
+Saving small/ep_6_step_929.ckpt
+0.500 perplexity: 31.093 speed: 21993 wps
+Saving small/ep_6_step_1161.ckpt
+0.600 perplexity: 30.176 speed: 22089 wps
+Saving small/ep_6_step_1393.ckpt
+0.700 perplexity: 29.800 speed: 22021 wps
+Saving small/ep_6_step_1625.ckpt
+0.799 perplexity: 29.506 speed: 22019 wps
+Saving small/ep_6_step_1857.ckpt
+0.899 perplexity: 28.679 speed: 22008 wps
+Saving small/ep_6_step_2089.ckpt
+0.999 perplexity: 28.117 speed: 21998 wps
+Saving small/ep_6_step_2321.ckpt
+Epoch: 6 Train Perplexity: 28.116
+Epoch: 6 Valid Perplexity: 118.656
+Epoch: 7 Learning rate: 0.125
+0.000 perplexity: 41.101 speed: 14312 wps
+Saving small/ep_7_step_1.ckpt
+0.100 perplexity: 27.692 speed: 21603 wps
+Saving small/ep_7_step_233.ckpt
+0.200 perplexity: 29.800 speed: 21817 wps
+Saving small/ep_7_step_465.ckpt
+0.300 perplexity: 28.801 speed: 21883 wps
+Saving small/ep_7_step_697.ckpt
+0.400 perplexity: 28.195 speed: 21917 wps
+Saving small/ep_7_step_929.ckpt
+0.500 perplexity: 27.818 speed: 21930 wps
+Saving small/ep_7_step_1161.ckpt
+0.600 perplexity: 26.971 speed: 21927 wps
+Saving small/ep_7_step_1393.ckpt
+0.700 perplexity: 26.606 speed: 22022 wps
+Saving small/ep_7_step_1625.ckpt
+0.799 perplexity: 26.313 speed: 21974 wps
+Saving small/ep_7_step_1857.ckpt
+0.899 perplexity: 25.541 speed: 21974 wps
+Saving small/ep_7_step_2089.ckpt
+0.999 perplexity: 25.005 speed: 21973 wps
+Saving small/ep_7_step_2321.ckpt
+Epoch: 7 Train Perplexity: 25.003
+Epoch: 7 Valid Perplexity: 119.567
+Epoch: 8 Learning rate: 0.062
+0.000 perplexity: 38.962 speed: 14505 wps
+Saving small/ep_8_step_1.ckpt
+0.100 perplexity: 26.047 speed: 22554 wps
+Saving small/ep_8_step_233.ckpt
+0.200 perplexity: 28.058 speed: 22089 wps
+Saving small/ep_8_step_465.ckpt
+0.300 perplexity: 27.100 speed: 22053 wps
+Saving small/ep_8_step_697.ckpt
+0.400 perplexity: 26.534 speed: 22049 wps
+Saving small/ep_8_step_929.ckpt
+0.500 perplexity: 26.169 speed: 22042 wps
+Saving small/ep_8_step_1161.ckpt
+0.600 perplexity: 25.363 speed: 22038 wps
+Saving small/ep_8_step_1393.ckpt
+0.700 perplexity: 25.003 speed: 22027 wps
+Saving small/ep_8_step_1625.ckpt
+0.799 perplexity: 24.706 speed: 22102 wps
+Saving small/ep_8_step_1857.ckpt
+0.899 perplexity: 23.960 speed: 22055 wps
+Saving small/ep_8_step_2089.ckpt
+0.999 perplexity: 23.439 speed: 22051 wps
+Saving small/ep_8_step_2321.ckpt
+Epoch: 8 Train Perplexity: 23.437
+Epoch: 8 Valid Perplexity: 119.826
+Epoch: 9 Learning rate: 0.031
+0.000 perplexity: 37.081 speed: 16069 wps
+Saving small/ep_9_step_1.ckpt
+0.100 perplexity: 25.137 speed: 21863 wps
+Saving small/ep_9_step_233.ckpt
+0.200 perplexity: 27.121 speed: 22253 wps
+Saving small/ep_9_step_465.ckpt
+0.300 perplexity: 26.200 speed: 22047 wps
+Saving small/ep_9_step_697.ckpt
+0.400 perplexity: 25.655 speed: 22025 wps
+Saving small/ep_9_step_929.ckpt
+0.500 perplexity: 25.306 speed: 22023 wps
+Saving small/ep_9_step_1161.ckpt
+0.600 perplexity: 24.525 speed: 22020 wps
+Saving small/ep_9_step_1393.ckpt
+0.700 perplexity: 24.170 speed: 22009 wps
+Saving small/ep_9_step_1625.ckpt
+0.799 perplexity: 23.867 speed: 21990 wps
+Saving small/ep_9_step_1857.ckpt
+0.899 perplexity: 23.133 speed: 22058 wps
+Saving small/ep_9_step_2089.ckpt
+0.999 perplexity: 22.620 speed: 22016 wps
+Saving small/ep_9_step_2321.ckpt
+Epoch: 9 Train Perplexity: 22.618
+Epoch: 9 Valid Perplexity: 119.660
+Epoch: 10 Learning rate: 0.016
+0.000 perplexity: 36.093 speed: 16449 wps
+Saving small/ep_10_step_1.ckpt
+0.100 perplexity: 24.609 speed: 21970 wps
+Saving small/ep_10_step_233.ckpt
+0.200 perplexity: 26.577 speed: 21914 wps
+Saving small/ep_10_step_465.ckpt
+0.300 perplexity: 25.669 speed: 22137 wps
+Saving small/ep_10_step_697.ckpt
+0.400 perplexity: 25.154 speed: 22018 wps
+Saving small/ep_10_step_929.ckpt
+0.500 perplexity: 24.810 speed: 22027 wps
+Saving small/ep_10_step_1161.ckpt
+0.600 perplexity: 24.044 speed: 22034 wps
+Saving small/ep_10_step_1393.ckpt
+0.700 perplexity: 23.694 speed: 22036 wps
+Saving small/ep_10_step_1625.ckpt
+0.799 perplexity: 23.391 speed: 22031 wps
+Saving small/ep_10_step_1857.ckpt
+0.899 perplexity: 22.664 speed: 22019 wps
+Saving small/ep_10_step_2089.ckpt
+0.999 perplexity: 22.157 speed: 22082 wps
+Saving small/ep_10_step_2321.ckpt
+Epoch: 10 Train Perplexity: 22.155
+Epoch: 10 Valid Perplexity: 119.271
+Epoch: 11 Learning rate: 0.008
+0.000 perplexity: 35.594 speed: 15018 wps
+Saving small/ep_11_step_1.ckpt
+0.100 perplexity: 24.322 speed: 21883 wps
+Saving small/ep_11_step_233.ckpt
+0.200 perplexity: 26.283 speed: 21909 wps
+Saving small/ep_11_step_465.ckpt
+0.300 perplexity: 25.382 speed: 21901 wps
+Saving small/ep_11_step_697.ckpt
+0.400 perplexity: 24.866 speed: 22093 wps
+Saving small/ep_11_step_929.ckpt
+0.500 perplexity: 24.523 speed: 22015 wps
+Saving small/ep_11_step_1161.ckpt
+0.600 perplexity: 23.770 speed: 22024 wps
+Saving small/ep_11_step_1393.ckpt
+0.700 perplexity: 23.425 speed: 22021 wps
+Saving small/ep_11_step_1625.ckpt
+0.799 perplexity: 23.125 speed: 22015 wps
+Saving small/ep_11_step_1857.ckpt
+0.899 perplexity: 22.404 speed: 22006 wps
+Saving small/ep_11_step_2089.ckpt
+0.999 perplexity: 21.898 speed: 21995 wps
+Saving small/ep_11_step_2321.ckpt
+Epoch: 11 Train Perplexity: 21.897
+Epoch: 11 Valid Perplexity: 118.955
+Epoch: 12 Learning rate: 0.004
+0.000 perplexity: 34.987 speed: 14882 wps
+Saving small/ep_12_step_1.ckpt
+0.100 perplexity: 24.099 speed: 21512 wps
+Saving small/ep_12_step_233.ckpt
+0.200 perplexity: 26.072 speed: 21757 wps
+Saving small/ep_12_step_465.ckpt
+0.300 perplexity: 25.208 speed: 21816 wps
+Saving small/ep_12_step_697.ckpt
+0.400 perplexity: 24.697 speed: 21824 wps
+Saving small/ep_12_step_929.ckpt
+0.500 perplexity: 24.361 speed: 21991 wps
+Saving small/ep_12_step_1161.ckpt
+0.600 perplexity: 23.609 speed: 21935 wps
+Saving small/ep_12_step_1393.ckpt
+0.700 perplexity: 23.264 speed: 21955 wps
+Saving small/ep_12_step_1625.ckpt
+0.799 perplexity: 22.967 speed: 21960 wps
+Saving small/ep_12_step_1857.ckpt
+0.899 perplexity: 22.252 speed: 21959 wps
+Saving small/ep_12_step_2089.ckpt
+0.999 perplexity: 21.752 speed: 21965 wps
+Saving small/ep_12_step_2321.ckpt
+Epoch: 12 Train Perplexity: 21.750
+Epoch: 12 Valid Perplexity: 118.767
+Epoch: 13 Learning rate: 0.002
+0.000 perplexity: 35.104 speed: 14691 wps
+Saving small/ep_13_step_1.ckpt
+0.100 perplexity: 24.006 speed: 22511 wps
+Saving small/ep_13_step_233.ckpt
+0.200 perplexity: 25.971 speed: 22056 wps
+Saving small/ep_13_step_465.ckpt
+0.300 perplexity: 25.101 speed: 22024 wps
+Saving small/ep_13_step_697.ckpt
+0.400 perplexity: 24.603 speed: 22007 wps
+Saving small/ep_13_step_929.ckpt
+0.500 perplexity: 24.269 speed: 21980 wps
+Saving small/ep_13_step_1161.ckpt
+0.600 perplexity: 23.522 speed: 22084 wps
+Saving small/ep_13_step_1393.ckpt
+0.700 perplexity: 23.186 speed: 22025 wps
+Saving small/ep_13_step_1625.ckpt
+0.799 perplexity: 22.888 speed: 22026 wps
+Saving small/ep_13_step_1857.ckpt
+0.899 perplexity: 22.173 speed: 22023 wps
+Saving small/ep_13_step_2089.ckpt
+0.999 perplexity: 21.675 speed: 22024 wps
+Saving small/ep_13_step_2321.ckpt
+Epoch: 13 Train Perplexity: 21.673
+Epoch: 13 Valid Perplexity: 118.637
+
+real	9m48.156s
+user	10m32.168s
+sys	0m17.180s

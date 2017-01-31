@@ -1,0 +1,18 @@
+[0m| Dictionary size 10000[0m	
+[0m| Load file /home/moses/dataset/ptb/train.txt: 929589 tokens[0m	
+[0m| Load file /home/moses/dataset/ptb/valid.txt: 73760 tokens[0m	
+[0m| Load file /home/moses/dataset/ptb/test.txt: 82430 tokens[0m	
+[0m| epoch  1 |     2905 samples |       6 ms/batch |     0 min | train ppl 239.5 | valid ppl 172.7 | test ppl 167.1[0m	
+[0m| epoch  2 |     5810 samples |       6 ms/batch |     0 min | train ppl 119.1 | valid ppl 139.8 | test ppl 135.0[0m	
+[0m| epoch  3 |     8715 samples |       6 ms/batch |     0 min | train ppl  89.9 | valid ppl 130.7 | test ppl 125.9[0m	
+[0m| epoch  4 |    11620 samples |       6 ms/batch |     1 min | train ppl  74.6 | valid ppl 129.1 | test ppl 123.5[0m	
+[0m| epoch  5 |    14525 samples |       6 ms/batch |     1 min | train ppl  64.6 | valid ppl 131.2 | test ppl 124.6[0m	
+[0m| epoch  6 |    17430 samples |       6 ms/batch |     1 min | train ppl  55.6 | valid ppl 132.8 | test ppl 125.9[0m	
+[0m| epoch  7 |    20335 samples |       6 ms/batch |     2 min | train ppl  51.4 | valid ppl 132.2 | test ppl 125.3[0m	
+[0m| epoch  8 |    23240 samples |       6 ms/batch |     2 min | train ppl  49.7 | valid ppl 130.8 | test ppl 124.1[0m	
+[0m| epoch  9 |    26145 samples |       6 ms/batch |     2 min | train ppl  49.3 | valid ppl 130.4 | test ppl 123.6[0m	
+[0m| epoch 10 |    29050 samples |       6 ms/batch |     3 min | train ppl  49.0 | valid ppl 129.9 | test ppl 123.2[0m	
+
+real	3m14.776s
+user	3m5.168s
+sys	0m9.604s

@@ -1,0 +1,118 @@
+[0m| Dictionary size 293220[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/train.txt: 25183481 tokens[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/valid.txt: 50325 tokens[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/test.txt: 49553 tokens[0m	
+[0m| epoch  0 |     7285 samples |      41 ms/batch |     5 min | train ppl 231.4 | valid ppl 152.2[0m	
+[0m| epoch  0 |    14573 samples |      41 ms/batch |    10 min | train ppl 122.9 | valid ppl 117.5[0m	
+[0m| epoch  0 |    21845 samples |      41 ms/batch |    15 min | train ppl 103.9 | valid ppl 102.4[0m	
+[0m| epoch  0 |    29132 samples |      41 ms/batch |    20 min | train ppl  92.5 | valid ppl  94.5[0m	
+[0m| epoch  0 |    36413 samples |      41 ms/batch |    25 min | train ppl  86.5 | valid ppl  88.1[0m	
+[0m| epoch  0 |    43694 samples |      41 ms/batch |    30 min | train ppl  82.1 | valid ppl  84.3[0m	
+[0m| epoch  0 |    50980 samples |      41 ms/batch |    35 min | train ppl  78.2 | valid ppl  80.9[0m	
+[0m| epoch  0 |    58258 samples |      41 ms/batch |    40 min | train ppl  75.9 | valid ppl  78.3[0m	
+[0m| epoch  0 |    65535 samples |      41 ms/batch |    45 min | train ppl  72.8 | valid ppl  76.1[0m	
+[0m| epoch  0 |    72818 samples |      41 ms/batch |    50 min | train ppl  71.6 | valid ppl  74.0[0m	
+[0m| epoch  1 |    78699 samples |      41 ms/batch |    54 min | train ppl  69.5 | valid ppl  72.7 | test ppl  70.3[0m	
+[0m| epoch  1 |    85972 samples |      41 ms/batch |    59 min | train ppl  65.8 | valid ppl  71.2[0m	
+[0m| epoch  1 |    93248 samples |      41 ms/batch |    64 min | train ppl  62.6 | valid ppl  70.3[0m	
+[0m| epoch  1 |   100513 samples |      41 ms/batch |    69 min | train ppl  61.5 | valid ppl  69.4[0m	
+[0m| epoch  1 |   107785 samples |      41 ms/batch |    74 min | train ppl  59.8 | valid ppl  68.7[0m	
+[0m| epoch  1 |   115052 samples |      41 ms/batch |    79 min | train ppl  59.0 | valid ppl  67.9[0m	
+[0m| epoch  1 |   122315 samples |      41 ms/batch |    84 min | train ppl  58.3 | valid ppl  67.6[0m	
+[0m| epoch  1 |   129574 samples |      41 ms/batch |    89 min | train ppl  57.4 | valid ppl  67.3[0m	
+[0m| epoch  1 |   136830 samples |      41 ms/batch |    94 min | train ppl  56.9 | valid ppl  66.7[0m	
+[0m| epoch  1 |   144094 samples |      41 ms/batch |    99 min | train ppl  56.0 | valid ppl  66.3[0m	
+[0m| epoch  1 |   151360 samples |      41 ms/batch |   104 min | train ppl  55.7 | valid ppl  65.6[0m	
+[0m| epoch  2 |   157398 samples |      41 ms/batch |   108 min | train ppl  55.0 | valid ppl  65.2 | test ppl  62.9[0m	
+[0m| epoch  2 |   164666 samples |      41 ms/batch |   113 min | train ppl  53.5 | valid ppl  64.8[0m	
+[0m| epoch  2 |   171933 samples |      41 ms/batch |   118 min | train ppl  51.8 | valid ppl  64.7[0m	
+[0m| epoch  2 |   179188 samples |      41 ms/batch |   123 min | train ppl  51.3 | valid ppl  64.5[0m	
+[0m| epoch  2 |   186443 samples |      41 ms/batch |   128 min | train ppl  50.4 | valid ppl  64.4[0m	
+[0m| epoch  2 |   193702 samples |      41 ms/batch |   133 min | train ppl  50.0 | valid ppl  64.0[0m	
+[0m| epoch  2 |   200964 samples |      41 ms/batch |   138 min | train ppl  49.7 | valid ppl  64.1[0m	
+[0m| epoch  2 |   208218 samples |      41 ms/batch |   143 min | train ppl  49.3 | valid ppl  64.2[0m	
+[0m| epoch  2 |   215471 samples |      41 ms/batch |   148 min | train ppl  49.1 | valid ppl  64.0[0m	
+[0m| epoch  2 |   222729 samples |      41 ms/batch |   153 min | train ppl  48.4 | valid ppl  63.9[0m	
+[0m| epoch  2 |   229994 samples |      41 ms/batch |   158 min | train ppl  48.4 | valid ppl  63.6[0m	
+[0m| epoch  3 |   236097 samples |      41 ms/batch |   163 min | train ppl  47.9 | valid ppl  63.5 | test ppl  61.1[0m	
+[0m| epoch  3 |   243360 samples |      41 ms/batch |   168 min | train ppl  47.1 | valid ppl  63.3[0m	
+[0m| epoch  3 |   250622 samples |      41 ms/batch |   173 min | train ppl  46.0 | valid ppl  63.3[0m	
+[0m| epoch  3 |   257870 samples |      41 ms/batch |   178 min | train ppl  45.7 | valid ppl  63.3[0m	
+[0m| epoch  3 |   265129 samples |      41 ms/batch |   183 min | train ppl  45.1 | valid ppl  63.4[0m	
+[0m| epoch  3 |   272387 samples |      41 ms/batch |   188 min | train ppl  44.8 | valid ppl  63.3[0m	
+[0m| epoch  3 |   279645 samples |      41 ms/batch |   193 min | train ppl  44.7 | valid ppl  63.3[0m	
+[0m| epoch  3 |   286895 samples |      41 ms/batch |   198 min | train ppl  44.4 | valid ppl  63.6[0m	
+[0m| epoch  3 |   294149 samples |      41 ms/batch |   203 min | train ppl  44.3 | valid ppl  63.5[0m	
+[0m| epoch  3 |   301404 samples |      41 ms/batch |   208 min | train ppl  43.7 | valid ppl  63.5[0m	
+[0m| epoch  3 |   308656 samples |      41 ms/batch |   213 min | train ppl  43.8 | valid ppl  63.5[0m	
+[0m| epoch  4 |   314796 samples |      41 ms/batch |   217 min | train ppl  43.4 | valid ppl  63.5 | test ppl  60.9[0m	
+[0m| epoch  4 |   322046 samples |      41 ms/batch |   222 min | train ppl  43.0 | valid ppl  63.3[0m	
+[0m| epoch  4 |   329304 samples |      41 ms/batch |   227 min | train ppl  42.1 | valid ppl  63.4[0m	
+[0m| epoch  4 |   336547 samples |      41 ms/batch |   232 min | train ppl  41.9 | valid ppl  63.5[0m	
+[0m| epoch  4 |   343804 samples |      41 ms/batch |   237 min | train ppl  41.5 | valid ppl  63.7[0m	
+[0m| epoch  4 |   351057 samples |      41 ms/batch |   242 min | train ppl  41.4 | valid ppl  63.5[0m	
+[0m| epoch  4 |   358311 samples |      41 ms/batch |   247 min | train ppl  41.2 | valid ppl  63.6[0m	
+[0m| epoch  4 |   365560 samples |      41 ms/batch |   252 min | train ppl  41.1 | valid ppl  64.1[0m	
+[0m| epoch  4 |   372810 samples |      41 ms/batch |   257 min | train ppl  41.0 | valid ppl  63.9[0m	
+[0m| epoch  4 |   380059 samples |      41 ms/batch |   262 min | train ppl  40.6 | valid ppl  64.0[0m	
+[0m| epoch  4 |   387310 samples |      41 ms/batch |   267 min | train ppl  40.7 | valid ppl  64.1[0m	
+[0m| epoch  5 |   393495 samples |      41 ms/batch |   272 min | train ppl  40.3 | valid ppl  64.0 | test ppl  61.4[0m	
+[0m| epoch  5 |   400748 samples |      41 ms/batch |   277 min | train ppl  39.8 | valid ppl  63.3[0m	
+[0m| epoch  5 |   407999 samples |      41 ms/batch |   282 min | train ppl  38.9 | valid ppl  63.4[0m	
+[0m| epoch  5 |   415233 samples |      41 ms/batch |   287 min | train ppl  38.5 | valid ppl  63.4[0m	
+[0m| epoch  5 |   422489 samples |      41 ms/batch |   292 min | train ppl  38.0 | valid ppl  63.6[0m	
+[0m| epoch  5 |   429742 samples |      41 ms/batch |   297 min | train ppl  37.7 | valid ppl  63.5[0m	
+[0m| epoch  5 |   436989 samples |      41 ms/batch |   302 min | train ppl  37.4 | valid ppl  63.5[0m	
+[0m| epoch  5 |   444237 samples |      41 ms/batch |   307 min | train ppl  37.1 | valid ppl  64.0[0m	
+[0m| epoch  5 |   451478 samples |      41 ms/batch |   312 min | train ppl  37.0 | valid ppl  64.0[0m	
+[0m| epoch  5 |   458711 samples |      41 ms/batch |   317 min | train ppl  36.4 | valid ppl  64.1[0m	
+[0m| epoch  5 |   465942 samples |      41 ms/batch |   322 min | train ppl  36.4 | valid ppl  64.4[0m	
+[0m| epoch  6 |   472194 samples |      41 ms/batch |   326 min | train ppl  36.0 | valid ppl  64.5 | test ppl  62.0[0m	
+[0m| epoch  6 |   479430 samples |      41 ms/batch |   331 min | train ppl  37.5 | valid ppl  63.9[0m	
+[0m| epoch  6 |   486673 samples |      41 ms/batch |   336 min | train ppl  36.8 | valid ppl  63.9[0m	
+[0m| epoch  6 |   493902 samples |      41 ms/batch |   341 min | train ppl  36.4 | valid ppl  63.8[0m	
+[0m| epoch  6 |   501142 samples |      41 ms/batch |   346 min | train ppl  36.0 | valid ppl  64.1[0m	
+[0m| epoch  6 |   508377 samples |      41 ms/batch |   351 min | train ppl  35.7 | valid ppl  64.1[0m	
+[0m| epoch  6 |   515612 samples |      41 ms/batch |   356 min | train ppl  35.4 | valid ppl  64.1[0m	
+[0m| epoch  6 |   522850 samples |      41 ms/batch |   361 min | train ppl  35.2 | valid ppl  64.4[0m	
+[0m| epoch  6 |   530091 samples |      41 ms/batch |   366 min | train ppl  35.0 | valid ppl  64.5[0m	
+[0m| epoch  6 |   537326 samples |      41 ms/batch |   371 min | train ppl  34.5 | valid ppl  64.6[0m	
+[0m| epoch  6 |   544558 samples |      41 ms/batch |   376 min | train ppl  34.4 | valid ppl  64.8[0m	
+[0m| epoch  7 |   550893 samples |      41 ms/batch |   381 min | train ppl  34.0 | valid ppl  65.0 | test ppl  62.5[0m	
+[0m| epoch  7 |   558133 samples |      41 ms/batch |   386 min | train ppl  36.4 | valid ppl  64.4[0m	
+[0m| epoch  7 |   565373 samples |      41 ms/batch |   391 min | train ppl  35.8 | valid ppl  64.4[0m	
+[0m| epoch  7 |   572604 samples |      41 ms/batch |   396 min | train ppl  35.5 | valid ppl  64.4[0m	
+[0m| epoch  7 |   579841 samples |      41 ms/batch |   401 min | train ppl  35.1 | valid ppl  64.5[0m	
+[0m| epoch  7 |   587074 samples |      41 ms/batch |   406 min | train ppl  34.8 | valid ppl  64.6[0m	
+[0m| epoch  7 |   594303 samples |      41 ms/batch |   411 min | train ppl  34.5 | valid ppl  64.6[0m	
+[0m| epoch  7 |   601532 samples |      41 ms/batch |   416 min | train ppl  34.3 | valid ppl  64.8[0m	
+[0m| epoch  7 |   608766 samples |      41 ms/batch |   421 min | train ppl  34.1 | valid ppl  64.9[0m	
+[0m| epoch  7 |   616004 samples |      41 ms/batch |   426 min | train ppl  33.6 | valid ppl  65.0[0m	
+[0m| epoch  7 |   623242 samples |      41 ms/batch |   431 min | train ppl  33.5 | valid ppl  65.2[0m	
+[0m| epoch  8 |   629592 samples |      41 ms/batch |   435 min | train ppl  33.1 | valid ppl  65.2 | test ppl  62.9[0m	
+[0m| epoch  8 |   636827 samples |      41 ms/batch |   440 min | train ppl  35.9 | valid ppl  64.7[0m	
+[0m| epoch  8 |   644068 samples |      41 ms/batch |   445 min | train ppl  35.3 | valid ppl  64.7[0m	
+[0m| epoch  8 |   651295 samples |      41 ms/batch |   450 min | train ppl  35.0 | valid ppl  64.7[0m	
+[0m| epoch  8 |   658531 samples |      41 ms/batch |   455 min | train ppl  34.6 | valid ppl  64.8[0m	
+[0m| epoch  8 |   665763 samples |      41 ms/batch |   460 min | train ppl  34.4 | valid ppl  64.8[0m	
+[0m| epoch  8 |   672996 samples |      41 ms/batch |   465 min | train ppl  34.1 | valid ppl  64.9[0m	
+[0m| epoch  8 |   680226 samples |      41 ms/batch |   470 min | train ppl  33.9 | valid ppl  65.0[0m	
+[0m| epoch  8 |   687462 samples |      41 ms/batch |   475 min | train ppl  33.7 | valid ppl  65.1[0m	
+[0m| epoch  8 |   694694 samples |      41 ms/batch |   480 min | train ppl  33.2 | valid ppl  65.2[0m	
+[0m| epoch  8 |   701929 samples |      41 ms/batch |   485 min | train ppl  33.1 | valid ppl  65.3[0m	
+[0m| epoch  9 |   708291 samples |      41 ms/batch |   490 min | train ppl  32.7 | valid ppl  65.4 | test ppl  63.0[0m	
+[0m| epoch  9 |   715528 samples |      41 ms/batch |   495 min | train ppl  35.7 | valid ppl  64.9[0m	
+[0m| epoch  9 |   722767 samples |      41 ms/batch |   500 min | train ppl  35.1 | valid ppl  64.9[0m	
+[0m| epoch  9 |   729995 samples |      41 ms/batch |   505 min | train ppl  34.8 | valid ppl  64.9[0m	
+[0m| epoch  9 |   737231 samples |      41 ms/batch |   510 min | train ppl  34.4 | valid ppl  64.9[0m	
+[0m| epoch  9 |   744464 samples |      41 ms/batch |   515 min | train ppl  34.2 | valid ppl  65.0[0m	
+[0m| epoch  9 |   751703 samples |      41 ms/batch |   520 min | train ppl  33.9 | valid ppl  65.0[0m	
+[0m| epoch  9 |   758938 samples |      41 ms/batch |   525 min | train ppl  33.7 | valid ppl  65.1[0m	
+[0m| epoch  9 |   766175 samples |      41 ms/batch |   530 min | train ppl  33.5 | valid ppl  65.2[0m	
+[0m| epoch  9 |   773408 samples |      41 ms/batch |   535 min | train ppl  33.0 | valid ppl  65.3[0m	
+[0m| epoch  9 |   780643 samples |      41 ms/batch |   540 min | train ppl  32.9 | valid ppl  65.4[0m	
+[0m| epoch 10 |   786990 samples |      41 ms/batch |   545 min | train ppl  32.5 | valid ppl  65.4 | test ppl  63.0[0m	
+
+real	545m15.629s
+user	464m3.784s
+sys	81m13.852s

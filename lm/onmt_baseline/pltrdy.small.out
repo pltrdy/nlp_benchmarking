@@ -1,0 +1,318 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+WARNING:tensorflow:From train.py:57 in _run.: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.898
+pciBusID 0000:02:00.0
+Total memory: 7.92GiB
+Free memory: 7.81GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:02:00.0)
+Starting training from epoch 1 using sampledsoftmax
+
+Epoch: 1 Learning rate: 1.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 9180 get requests, put_count=9167 evicted_count=1000 eviction_rate=0.109087 and unsatisfied allocation rate=0.121242
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3080655 get requests, put_count=3080656 evicted_count=4000 eviction_rate=0.00129842 and unsatisfied allocation rate=0.00130362
+[Epoch 1 | Step: 5723/62958(9%)]	Training Perplexity: 103.319	Speed: 26638 wps	Pad Ratio: 0.000
+[Epoch 1 | Step: 11446/62958(18%)]	Training Perplexity: 68.465	Speed: 26031 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10510335 get requests, put_count=10510336 evicted_count=14000 eviction_rate=0.00133202 and unsatisfied allocation rate=0.00133354
+[Epoch 1 | Step: 17169/62958(27%)]	Training Perplexity: 56.022	Speed: 25841 wps	Pad Ratio: 0.000
+[Epoch 1 | Step: 22892/62958(36%)]	Training Perplexity: 49.341	Speed: 25776 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 17999685 get requests, put_count=17999686 evicted_count=24000 eviction_rate=0.00133336 and unsatisfied allocation rate=0.00133425
+[Epoch 1 | Step: 28615/62958(45%)]	Training Perplexity: 45.113	Speed: 25738 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 25338330 get requests, put_count=25338331 evicted_count=34000 eviction_rate=0.00134184 and unsatisfied allocation rate=0.00134247
+[Epoch 1 | Step: 34338/62958(55%)]	Training Perplexity: 42.068	Speed: 25715 wps	Pad Ratio: 0.000
+[Epoch 1 | Step: 40061/62958(64%)]	Training Perplexity: 39.875	Speed: 25687 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 32770305 get requests, put_count=32770306 evicted_count=44000 eviction_rate=0.00134268 and unsatisfied allocation rate=0.00134317
+[Epoch 1 | Step: 45784/62958(73%)]	Training Perplexity: 38.104	Speed: 25658 wps	Pad Ratio: 0.000
+[Epoch 1 | Step: 51507/62958(82%)]	Training Perplexity: 36.723	Speed: 25645 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 40203045 get requests, put_count=40203046 evicted_count=54000 eviction_rate=0.00134318 and unsatisfied allocation rate=0.00134358
+[Epoch 1 | Step: 57230/62958(91%)]	Training Perplexity: 35.582	Speed: 25657 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 47498850 get requests, put_count=47498851 evicted_count=64000 eviction_rate=0.0013474 and unsatisfied allocation rate=0.00134774
+[Epoch 1 | Step: 62953/62958(100%)]	Training Perplexity: 34.619	Speed: 25674 wps	Pad Ratio: 0.000
+Epoch: 1 Train Perplexity: 34.618
+Epoch: 1 Valid Perplexity: 86.175
+Saving small/ep_2.ckpt
+
+Epoch: 2 Learning rate: 1.000
+[Epoch 2 | Step: 5723/62958(9%)]	Training Perplexity: 25.497	Speed: 25845 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 54961043 get requests, put_count=54961044 evicted_count=74000 eviction_rate=0.00134641 and unsatisfied allocation rate=0.0013467
+[Epoch 2 | Step: 11446/62958(18%)]	Training Perplexity: 25.180	Speed: 25846 wps	Pad Ratio: 0.000
+[Epoch 2 | Step: 17169/62958(27%)]	Training Perplexity: 24.978	Speed: 25856 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 62338703 get requests, put_count=62338704 evicted_count=84000 eviction_rate=0.00134748 and unsatisfied allocation rate=0.00134773
+[Epoch 2 | Step: 22892/62958(36%)]	Training Perplexity: 24.817	Speed: 25833 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 69703358 get requests, put_count=69703359 evicted_count=94000 eviction_rate=0.00134857 and unsatisfied allocation rate=0.0013488
+[Epoch 2 | Step: 28615/62958(45%)]	Training Perplexity: 24.664	Speed: 25841 wps	Pad Ratio: 0.000
+[Epoch 2 | Step: 34338/62958(55%)]	Training Perplexity: 24.484	Speed: 25839 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 76997633 get requests, put_count=76997634 evicted_count=104000 eviction_rate=0.00135069 and unsatisfied allocation rate=0.0013509
+[Epoch 2 | Step: 40061/62958(64%)]	Training Perplexity: 24.370	Speed: 25834 wps	Pad Ratio: 0.000
+[Epoch 2 | Step: 45784/62958(73%)]	Training Perplexity: 24.226	Speed: 25798 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 84483158 get requests, put_count=84483159 evicted_count=114000 eviction_rate=0.00134938 and unsatisfied allocation rate=0.00134957
+[Epoch 2 | Step: 51507/62958(82%)]	Training Perplexity: 24.123	Speed: 25776 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 91735358 get requests, put_count=91735359 evicted_count=124000 eviction_rate=0.00135171 and unsatisfied allocation rate=0.00135189
+[Epoch 2 | Step: 57230/62958(91%)]	Training Perplexity: 24.029	Speed: 25720 wps	Pad Ratio: 0.000
+[Epoch 2 | Step: 62953/62958(100%)]	Training Perplexity: 23.941	Speed: 25715 wps	Pad Ratio: 0.000
+Epoch: 2 Train Perplexity: 23.941
+Epoch: 2 Valid Perplexity: 77.760
+Saving small/ep_3.ckpt
+
+Epoch: 3 Learning rate: 1.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 99103456 get requests, put_count=99103457 evicted_count=134000 eviction_rate=0.00135212 and unsatisfied allocation rate=0.00135228
+[Epoch 3 | Step: 5723/62958(9%)]	Training Perplexity: 22.727	Speed: 25726 wps	Pad Ratio: 0.000
+[Epoch 3 | Step: 11446/62958(18%)]	Training Perplexity: 22.587	Speed: 25718 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 106511716 get requests, put_count=106511717 evicted_count=144000 eviction_rate=0.00135196 and unsatisfied allocation rate=0.00135211
+[Epoch 3 | Step: 17169/62958(27%)]	Training Perplexity: 22.528	Speed: 25689 wps	Pad Ratio: 0.000
+[Epoch 3 | Step: 22892/62958(36%)]	Training Perplexity: 22.458	Speed: 25703 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 113875606 get requests, put_count=113875607 evicted_count=154000 eviction_rate=0.00135235 and unsatisfied allocation rate=0.00135249
+[Epoch 3 | Step: 28615/62958(45%)]	Training Perplexity: 22.390	Speed: 25688 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 121117861 get requests, put_count=121117862 evicted_count=164000 eviction_rate=0.00135405 and unsatisfied allocation rate=0.00135419
+[Epoch 3 | Step: 34338/62958(55%)]	Training Perplexity: 22.296	Speed: 25605 wps	Pad Ratio: 0.000
+[Epoch 3 | Step: 40061/62958(64%)]	Training Perplexity: 22.252	Speed: 25635 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 128602621 get requests, put_count=128602622 evicted_count=174000 eviction_rate=0.00135301 and unsatisfied allocation rate=0.00135313
+[Epoch 3 | Step: 45784/62958(73%)]	Training Perplexity: 22.183	Speed: 25644 wps	Pad Ratio: 0.000
+[Epoch 3 | Step: 51507/62958(82%)]	Training Perplexity: 22.144	Speed: 25652 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 136065196 get requests, put_count=136065197 evicted_count=184000 eviction_rate=0.00135229 and unsatisfied allocation rate=0.00135241
+[Epoch 3 | Step: 57230/62958(91%)]	Training Perplexity: 22.103	Speed: 25659 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 143407666 get requests, put_count=143407667 evicted_count=194000 eviction_rate=0.00135279 and unsatisfied allocation rate=0.0013529
+[Epoch 3 | Step: 62953/62958(100%)]	Training Perplexity: 22.065	Speed: 25672 wps	Pad Ratio: 0.000
+Epoch: 3 Train Perplexity: 22.065
+Epoch: 3 Valid Perplexity: 74.677
+Saving small/ep_4.ckpt
+
+Epoch: 4 Learning rate: 1.000
+[Epoch 4 | Step: 5723/62958(9%)]	Training Perplexity: 21.396	Speed: 25612 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 150887454 get requests, put_count=150887455 evicted_count=204000 eviction_rate=0.001352 and unsatisfied allocation rate=0.00135211
+[Epoch 4 | Step: 11446/62958(18%)]	Training Perplexity: 21.335	Speed: 25692 wps	Pad Ratio: 0.000
+[Epoch 4 | Step: 17169/62958(27%)]	Training Perplexity: 21.329	Speed: 25704 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 158333199 get requests, put_count=158333200 evicted_count=214000 eviction_rate=0.00135158 and unsatisfied allocation rate=0.00135168
+[Epoch 4 | Step: 22892/62958(36%)]	Training Perplexity: 21.306	Speed: 25716 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 165815664 get requests, put_count=165815665 evicted_count=224000 eviction_rate=0.0013509 and unsatisfied allocation rate=0.00135099
+[Epoch 4 | Step: 28615/62958(45%)]	Training Perplexity: 21.275	Speed: 25717 wps	Pad Ratio: 0.000
+[Epoch 4 | Step: 34338/62958(55%)]	Training Perplexity: 21.211	Speed: 25726 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 173222394 get requests, put_count=173222395 evicted_count=234000 eviction_rate=0.00135086 and unsatisfied allocation rate=0.00135096
+[Epoch 4 | Step: 40061/62958(64%)]	Training Perplexity: 21.196	Speed: 25737 wps	Pad Ratio: 0.000
+[Epoch 4 | Step: 45784/62958(73%)]	Training Perplexity: 21.155	Speed: 25741 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 180537324 get requests, put_count=180537325 evicted_count=244000 eviction_rate=0.00135152 and unsatisfied allocation rate=0.00135161
+[Epoch 4 | Step: 51507/62958(82%)]	Training Perplexity: 21.137	Speed: 25699 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 187996839 get requests, put_count=187996840 evicted_count=254000 eviction_rate=0.00135109 and unsatisfied allocation rate=0.00135117
+[Epoch 4 | Step: 57230/62958(91%)]	Training Perplexity: 21.120	Speed: 25679 wps	Pad Ratio: 0.000
+[Epoch 4 | Step: 62953/62958(100%)]	Training Perplexity: 21.100	Speed: 25679 wps	Pad Ratio: 0.000
+Epoch: 4 Train Perplexity: 21.100
+Epoch: 4 Valid Perplexity: 73.765
+Saving small/ep_5.ckpt
+
+Epoch: 5 Learning rate: 0.500
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 195470507 get requests, put_count=195470508 evicted_count=264000 eviction_rate=0.00135059 and unsatisfied allocation rate=0.00135067
+[Epoch 5 | Step: 5723/62958(9%)]	Training Perplexity: 19.329	Speed: 25683 wps	Pad Ratio: 0.000
+[Epoch 5 | Step: 11446/62958(18%)]	Training Perplexity: 19.038	Speed: 25721 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 202879532 get requests, put_count=202879533 evicted_count=274000 eviction_rate=0.00135056 and unsatisfied allocation rate=0.00135063
+[Epoch 5 | Step: 17169/62958(27%)]	Training Perplexity: 18.887	Speed: 25747 wps	Pad Ratio: 0.000
+[Epoch 5 | Step: 22892/62958(36%)]	Training Perplexity: 18.759	Speed: 25747 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 210335222 get requests, put_count=210335223 evicted_count=284000 eviction_rate=0.00135023 and unsatisfied allocation rate=0.0013503
+[Epoch 5 | Step: 28615/62958(45%)]	Training Perplexity: 18.644	Speed: 25688 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 217684577 get requests, put_count=217684569 evicted_count=294000 eviction_rate=0.00135058 and unsatisfied allocation rate=0.00135069
+[Epoch 5 | Step: 34338/62958(55%)]	Training Perplexity: 18.508	Speed: 25604 wps	Pad Ratio: 0.000
+[Epoch 5 | Step: 40061/62958(64%)]	Training Perplexity: 18.420	Speed: 25586 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 225027047 get requests, put_count=225027048 evicted_count=304000 eviction_rate=0.00135095 and unsatisfied allocation rate=0.00135102
+[Epoch 5 | Step: 45784/62958(73%)]	Training Perplexity: 18.317	Speed: 25593 wps	Pad Ratio: 0.000
+[Epoch 5 | Step: 51507/62958(82%)]	Training Perplexity: 18.238	Speed: 25614 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 232370282 get requests, put_count=232370283 evicted_count=314000 eviction_rate=0.00135129 and unsatisfied allocation rate=0.00135136
+[Epoch 5 | Step: 57230/62958(91%)]	Training Perplexity: 18.161	Speed: 25618 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 239845097 get requests, put_count=239845098 evicted_count=324000 eviction_rate=0.00135087 and unsatisfied allocation rate=0.00135094
+[Epoch 5 | Step: 62953/62958(100%)]	Training Perplexity: 18.085	Speed: 25630 wps	Pad Ratio: 0.000
+Epoch: 5 Train Perplexity: 18.085
+Epoch: 5 Valid Perplexity: 64.295
+Saving small/ep_6.ckpt
+
+Epoch: 6 Learning rate: 0.250
+[Epoch 6 | Step: 5723/62958(9%)]	Training Perplexity: 17.092	Speed: 25774 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 247158880 get requests, put_count=247158881 evicted_count=334000 eviction_rate=0.00135136 and unsatisfied allocation rate=0.00135142
+[Epoch 6 | Step: 11446/62958(18%)]	Training Perplexity: 16.923	Speed: 25759 wps	Pad Ratio: 0.000
+[Epoch 6 | Step: 17169/62958(27%)]	Training Perplexity: 16.839	Speed: 25769 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 254665060 get requests, put_count=254665061 evicted_count=344000 eviction_rate=0.00135079 and unsatisfied allocation rate=0.00135086
+[Epoch 6 | Step: 22892/62958(36%)]	Training Perplexity: 16.762	Speed: 25770 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 262058020 get requests, put_count=262058021 evicted_count=354000 eviction_rate=0.00135085 and unsatisfied allocation rate=0.00135091
+[Epoch 6 | Step: 28615/62958(45%)]	Training Perplexity: 16.685	Speed: 25768 wps	Pad Ratio: 0.000
+[Epoch 6 | Step: 34338/62958(55%)]	Training Perplexity: 16.586	Speed: 25766 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 269441035 get requests, put_count=269441036 evicted_count=364000 eviction_rate=0.00135094 and unsatisfied allocation rate=0.001351
+[Epoch 6 | Step: 40061/62958(64%)]	Training Perplexity: 16.521	Speed: 25767 wps	Pad Ratio: 0.000
+[Epoch 6 | Step: 45784/62958(73%)]	Training Perplexity: 16.441	Speed: 25758 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 276755965 get requests, put_count=276755962 evicted_count=374000 eviction_rate=0.00135137 and unsatisfied allocation rate=0.00135144
+[Epoch 6 | Step: 51507/62958(82%)]	Training Perplexity: 16.378	Speed: 25747 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 284171875 get requests, put_count=284171876 evicted_count=384000 eviction_rate=0.00135129 and unsatisfied allocation rate=0.00135135
+[Epoch 6 | Step: 57230/62958(91%)]	Training Perplexity: 16.315	Speed: 25749 wps	Pad Ratio: 0.000
+[Epoch 6 | Step: 62953/62958(100%)]	Training Perplexity: 16.251	Speed: 25708 wps	Pad Ratio: 0.000
+Epoch: 6 Train Perplexity: 16.251
+Epoch: 6 Valid Perplexity: 60.679
+Saving small/ep_7.ckpt
+
+Epoch: 7 Learning rate: 0.125
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 291666963 get requests, put_count=291666964 evicted_count=394000 eviction_rate=0.00135086 and unsatisfied allocation rate=0.00135091
+[Epoch 7 | Step: 5723/62958(9%)]	Training Perplexity: 15.994	Speed: 25502 wps	Pad Ratio: 0.000
+[Epoch 7 | Step: 11446/62958(18%)]	Training Perplexity: 15.873	Speed: 25532 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 299111943 get requests, put_count=299111944 evicted_count=404000 eviction_rate=0.00135066 and unsatisfied allocation rate=0.00135072
+[Epoch 7 | Step: 17169/62958(27%)]	Training Perplexity: 15.813	Speed: 25562 wps	Pad Ratio: 0.000
+[Epoch 7 | Step: 22892/62958(36%)]	Training Perplexity: 15.755	Speed: 25532 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 306462063 get requests, put_count=306462064 evicted_count=414000 eviction_rate=0.0013509 and unsatisfied allocation rate=0.00135095
+[Epoch 7 | Step: 28615/62958(45%)]	Training Perplexity: 15.694	Speed: 25544 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 313936113 get requests, put_count=313936114 evicted_count=424000 eviction_rate=0.00135059 and unsatisfied allocation rate=0.00135064
+[Epoch 7 | Step: 34338/62958(55%)]	Training Perplexity: 15.609	Speed: 25565 wps	Pad Ratio: 0.000
+[Epoch 7 | Step: 40061/62958(64%)]	Training Perplexity: 15.555	Speed: 25589 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 321424698 get requests, put_count=321424699 evicted_count=434000 eviction_rate=0.00135024 and unsatisfied allocation rate=0.00135029
+[Epoch 7 | Step: 45784/62958(73%)]	Training Perplexity: 15.486	Speed: 25568 wps	Pad Ratio: 0.000
+[Epoch 7 | Step: 51507/62958(82%)]	Training Perplexity: 15.430	Speed: 25567 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 328799298 get requests, put_count=328799299 evicted_count=444000 eviction_rate=0.00135037 and unsatisfied allocation rate=0.00135042
+[Epoch 7 | Step: 57230/62958(91%)]	Training Perplexity: 15.374	Speed: 25563 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 336090513 get requests, put_count=336090514 evicted_count=454000 eviction_rate=0.00135083 and unsatisfied allocation rate=0.00135087
+[Epoch 7 | Step: 62953/62958(100%)]	Training Perplexity: 15.317	Speed: 25555 wps	Pad Ratio: 0.000
+Epoch: 7 Train Perplexity: 15.317
+Epoch: 7 Valid Perplexity: 59.035
+Saving small/ep_8.ckpt
+
+Epoch: 8 Learning rate: 0.062
+[Epoch 8 | Step: 5723/62958(9%)]	Training Perplexity: 15.419	Speed: 25562 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 343483856 get requests, put_count=343483857 evicted_count=464000 eviction_rate=0.00135086 and unsatisfied allocation rate=0.00135091
+[Epoch 8 | Step: 11446/62958(18%)]	Training Perplexity: 15.327	Speed: 25523 wps	Pad Ratio: 0.000
+[Epoch 8 | Step: 17169/62958(27%)]	Training Perplexity: 15.281	Speed: 25550 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 350795726 get requests, put_count=350795727 evicted_count=474000 eviction_rate=0.00135121 and unsatisfied allocation rate=0.00135126
+[Epoch 8 | Step: 22892/62958(36%)]	Training Perplexity: 15.233	Speed: 25553 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 358221581 get requests, put_count=358221582 evicted_count=484000 eviction_rate=0.00135112 and unsatisfied allocation rate=0.00135116
+[Epoch 8 | Step: 28615/62958(45%)]	Training Perplexity: 15.181	Speed: 25557 wps	Pad Ratio: 0.000
+[Epoch 8 | Step: 34338/62958(55%)]	Training Perplexity: 15.103	Speed: 25587 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 365456951 get requests, put_count=365456952 evicted_count=494000 eviction_rate=0.00135173 and unsatisfied allocation rate=0.00135178
+[Epoch 8 | Step: 40061/62958(64%)]	Training Perplexity: 15.054	Speed: 25610 wps	Pad Ratio: 0.000
+[Epoch 8 | Step: 45784/62958(73%)]	Training Perplexity: 14.991	Speed: 25619 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 372975371 get requests, put_count=372975372 evicted_count=504000 eviction_rate=0.0013513 and unsatisfied allocation rate=0.00135134
+[Epoch 8 | Step: 51507/62958(82%)]	Training Perplexity: 14.939	Speed: 25613 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 380362976 get requests, put_count=380362977 evicted_count=514000 eviction_rate=0.00135134 and unsatisfied allocation rate=0.00135138
+[Epoch 8 | Step: 57230/62958(91%)]	Training Perplexity: 14.887	Speed: 25617 wps	Pad Ratio: 0.000
+[Epoch 8 | Step: 62953/62958(100%)]	Training Perplexity: 14.834	Speed: 25633 wps	Pad Ratio: 0.000
+Epoch: 8 Train Perplexity: 14.833
+Epoch: 8 Valid Perplexity: 58.267
+Saving small/ep_9.ckpt
+
+Epoch: 9 Learning rate: 0.031
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 387826699 get requests, put_count=387826700 evicted_count=524000 eviction_rate=0.00135112 and unsatisfied allocation rate=0.00135116
+[Epoch 9 | Step: 5723/62958(9%)]	Training Perplexity: 15.128	Speed: 25683 wps	Pad Ratio: 0.000
+[Epoch 9 | Step: 11446/62958(18%)]	Training Perplexity: 15.044	Speed: 25618 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 395233429 get requests, put_count=395233430 evicted_count=534000 eviction_rate=0.0013511 and unsatisfied allocation rate=0.00135114
+[Epoch 9 | Step: 17169/62958(27%)]	Training Perplexity: 15.008	Speed: 25555 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 402493279 get requests, put_count=402493280 evicted_count=544000 eviction_rate=0.00135158 and unsatisfied allocation rate=0.00135162
+[Epoch 9 | Step: 22892/62958(36%)]	Training Perplexity: 14.965	Speed: 25524 wps	Pad Ratio: 0.000
+[Epoch 9 | Step: 28615/62958(45%)]	Training Perplexity: 14.917	Speed: 25517 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 409906129 get requests, put_count=409906130 evicted_count=554000 eviction_rate=0.00135153 and unsatisfied allocation rate=0.00135157
+[Epoch 9 | Step: 34338/62958(55%)]	Training Perplexity: 14.844	Speed: 25543 wps	Pad Ratio: 0.000
+[Epoch 9 | Step: 40061/62958(64%)]	Training Perplexity: 14.798	Speed: 25548 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 417317449 get requests, put_count=417317450 evicted_count=564000 eviction_rate=0.00135149 and unsatisfied allocation rate=0.00135153
+[Epoch 9 | Step: 45784/62958(73%)]	Training Perplexity: 14.737	Speed: 25564 wps	Pad Ratio: 0.000
+[Epoch 9 | Step: 51507/62958(82%)]	Training Perplexity: 14.688	Speed: 25553 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 424747894 get requests, put_count=424747895 evicted_count=574000 eviction_rate=0.00135139 and unsatisfied allocation rate=0.00135143
+[Epoch 9 | Step: 57230/62958(91%)]	Training Perplexity: 14.638	Speed: 25564 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 432058999 get requests, put_count=432058999 evicted_count=584000 eviction_rate=0.00135167 and unsatisfied allocation rate=0.00135171
+[Epoch 9 | Step: 62953/62958(100%)]	Training Perplexity: 14.586	Speed: 25575 wps	Pad Ratio: 0.000
+Epoch: 9 Train Perplexity: 14.586
+Epoch: 9 Valid Perplexity: 57.920
+Saving small/ep_10.ckpt
+
+Epoch: 10 Learning rate: 0.016
+[Epoch 10 | Step: 5723/62958(9%)]	Training Perplexity: 14.975	Speed: 25784 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 439499772 get requests, put_count=439499773 evicted_count=594000 eviction_rate=0.00135154 and unsatisfied allocation rate=0.00135157
+[Epoch 10 | Step: 11446/62958(18%)]	Training Perplexity: 14.896	Speed: 25761 wps	Pad Ratio: 0.000
+[Epoch 10 | Step: 17169/62958(27%)]	Training Perplexity: 14.862	Speed: 25697 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 446927157 get requests, put_count=446927158 evicted_count=604000 eviction_rate=0.00135145 and unsatisfied allocation rate=0.00135149
+[Epoch 10 | Step: 22892/62958(36%)]	Training Perplexity: 14.824	Speed: 25657 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 454362957 get requests, put_count=454362958 evicted_count=614000 eviction_rate=0.00135134 and unsatisfied allocation rate=0.00135138
+[Epoch 10 | Step: 28615/62958(45%)]	Training Perplexity: 14.778	Speed: 25668 wps	Pad Ratio: 0.000
+[Epoch 10 | Step: 34338/62958(55%)]	Training Perplexity: 14.709	Speed: 25638 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 461836242 get requests, put_count=461836243 evicted_count=624000 eviction_rate=0.00135113 and unsatisfied allocation rate=0.00135116
+[Epoch 10 | Step: 40061/62958(64%)]	Training Perplexity: 14.664	Speed: 25649 wps	Pad Ratio: 0.000
+[Epoch 10 | Step: 45784/62958(73%)]	Training Perplexity: 14.604	Speed: 25659 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 469286577 get requests, put_count=469286578 evicted_count=634000 eviction_rate=0.00135099 and unsatisfied allocation rate=0.00135102
+[Epoch 10 | Step: 51507/62958(82%)]	Training Perplexity: 14.557	Speed: 25671 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 476788167 get requests, put_count=476788168 evicted_count=644000 eviction_rate=0.0013507 and unsatisfied allocation rate=0.00135074
+[Epoch 10 | Step: 57230/62958(91%)]	Training Perplexity: 14.507	Speed: 25677 wps	Pad Ratio: 0.000
+[Epoch 10 | Step: 62953/62958(100%)]	Training Perplexity: 14.456	Speed: 25683 wps	Pad Ratio: 0.000
+Epoch: 10 Train Perplexity: 14.456
+Epoch: 10 Valid Perplexity: 57.757
+Saving small/ep_11.ckpt
+
+Epoch: 11 Learning rate: 0.008
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 484275605 get requests, put_count=484275606 evicted_count=654000 eviction_rate=0.00135047 and unsatisfied allocation rate=0.0013505
+[Epoch 11 | Step: 5723/62958(9%)]	Training Perplexity: 14.894	Speed: 25740 wps	Pad Ratio: 0.000
+[Epoch 11 | Step: 11446/62958(18%)]	Training Perplexity: 14.820	Speed: 25751 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 491678510 get requests, put_count=491678511 evicted_count=664000 eviction_rate=0.00135048 and unsatisfied allocation rate=0.00135051
+[Epoch 11 | Step: 17169/62958(27%)]	Training Perplexity: 14.789	Speed: 25757 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 499069175 get requests, put_count=499069174 evicted_count=674000 eviction_rate=0.00135051 and unsatisfied allocation rate=0.00135055
+[Epoch 11 | Step: 22892/62958(36%)]	Training Perplexity: 14.752	Speed: 25762 wps	Pad Ratio: 0.000
+[Epoch 11 | Step: 28615/62958(45%)]	Training Perplexity: 14.707	Speed: 25758 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 506473610 get requests, put_count=506473611 evicted_count=684000 eviction_rate=0.00135051 and unsatisfied allocation rate=0.00135055
+[Epoch 11 | Step: 34338/62958(55%)]	Training Perplexity: 14.637	Speed: 25750 wps	Pad Ratio: 0.000
+[Epoch 11 | Step: 40061/62958(64%)]	Training Perplexity: 14.593	Speed: 25751 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 513916295 get requests, put_count=513916296 evicted_count=694000 eviction_rate=0.00135041 and unsatisfied allocation rate=0.00135045
+[Epoch 11 | Step: 45784/62958(73%)]	Training Perplexity: 14.534	Speed: 25752 wps	Pad Ratio: 0.000
+[Epoch 11 | Step: 51507/62958(82%)]	Training Perplexity: 14.486	Speed: 25753 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 521282480 get requests, put_count=521282481 evicted_count=704000 eviction_rate=0.00135052 and unsatisfied allocation rate=0.00135055
+[Epoch 11 | Step: 57230/62958(91%)]	Training Perplexity: 14.437	Speed: 25697 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 528660905 get requests, put_count=528660906 evicted_count=714000 eviction_rate=0.00135058 and unsatisfied allocation rate=0.00135061
+[Epoch 11 | Step: 62953/62958(100%)]	Training Perplexity: 14.386	Speed: 25654 wps	Pad Ratio: 0.000
+Epoch: 11 Train Perplexity: 14.386
+Epoch: 11 Valid Perplexity: 57.680
+Saving small/ep_12.ckpt
+
+Epoch: 12 Learning rate: 0.004
+[Epoch 12 | Step: 5723/62958(9%)]	Training Perplexity: 14.853	Speed: 25538 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 536110858 get requests, put_count=536110859 evicted_count=724000 eviction_rate=0.00135047 and unsatisfied allocation rate=0.0013505
+[Epoch 12 | Step: 11446/62958(18%)]	Training Perplexity: 14.780	Speed: 25443 wps	Pad Ratio: 0.000
+[Epoch 12 | Step: 17169/62958(27%)]	Training Perplexity: 14.749	Speed: 25448 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 543509173 get requests, put_count=543509174 evicted_count=734000 eviction_rate=0.00135048 and unsatisfied allocation rate=0.00135051
+[Epoch 12 | Step: 22892/62958(36%)]	Training Perplexity: 14.712	Speed: 25479 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 550800388 get requests, put_count=550800389 evicted_count=744000 eviction_rate=0.00135076 and unsatisfied allocation rate=0.00135079
+[Epoch 12 | Step: 28615/62958(45%)]	Training Perplexity: 14.668	Speed: 25492 wps	Pad Ratio: 0.000
+[Epoch 12 | Step: 34338/62958(55%)]	Training Perplexity: 14.599	Speed: 25494 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 558204058 get requests, put_count=558204059 evicted_count=754000 eviction_rate=0.00135076 and unsatisfied allocation rate=0.00135079
+[Epoch 12 | Step: 40061/62958(64%)]	Training Perplexity: 14.554	Speed: 25525 wps	Pad Ratio: 0.000
+[Epoch 12 | Step: 45784/62958(73%)]	Training Perplexity: 14.497	Speed: 25534 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 565592428 get requests, put_count=565592429 evicted_count=764000 eviction_rate=0.0013508 and unsatisfied allocation rate=0.00135082
+[Epoch 12 | Step: 51507/62958(82%)]	Training Perplexity: 14.449	Speed: 25557 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 573028993 get requests, put_count=573028994 evicted_count=774000 eviction_rate=0.00135072 and unsatisfied allocation rate=0.00135074
+[Epoch 12 | Step: 57230/62958(91%)]	Training Perplexity: 14.401	Speed: 25567 wps	Pad Ratio: 0.000
+[Epoch 12 | Step: 62953/62958(100%)]	Training Perplexity: 14.350	Speed: 25575 wps	Pad Ratio: 0.000
+Epoch: 12 Train Perplexity: 14.350
+Epoch: 12 Valid Perplexity: 57.639
+Saving small/ep_13.ckpt
+
+Epoch: 13 Learning rate: 0.002
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 580480476 get requests, put_count=580480477 evicted_count=784000 eviction_rate=0.00135061 and unsatisfied allocation rate=0.00135063
+[Epoch 13 | Step: 5723/62958(9%)]	Training Perplexity: 14.828	Speed: 25742 wps	Pad Ratio: 0.000
+[Epoch 13 | Step: 11446/62958(18%)]	Training Perplexity: 14.757	Speed: 25670 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 587962941 get requests, put_count=587962942 evicted_count=794000 eviction_rate=0.00135043 and unsatisfied allocation rate=0.00135045
+[Epoch 13 | Step: 17169/62958(27%)]	Training Perplexity: 14.727	Speed: 25611 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 595413276 get requests, put_count=595413277 evicted_count=804000 eviction_rate=0.00135032 and unsatisfied allocation rate=0.00135035
+[Epoch 13 | Step: 22892/62958(36%)]	Training Perplexity: 14.691	Speed: 25657 wps	Pad Ratio: 0.000
+[Epoch 13 | Step: 28615/62958(45%)]	Training Perplexity: 14.647	Speed: 25641 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 602890386 get requests, put_count=602890387 evicted_count=814000 eviction_rate=0.00135016 and unsatisfied allocation rate=0.00135019
+[Epoch 13 | Step: 34338/62958(55%)]	Training Perplexity: 14.578	Speed: 25628 wps	Pad Ratio: 0.000
+[Epoch 13 | Step: 40061/62958(64%)]	Training Perplexity: 14.534	Speed: 25623 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 610261926 get requests, put_count=610261927 evicted_count=824000 eviction_rate=0.00135024 and unsatisfied allocation rate=0.00135027
+[Epoch 13 | Step: 45784/62958(73%)]	Training Perplexity: 14.477	Speed: 25632 wps	Pad Ratio: 0.000
+[Epoch 13 | Step: 51507/62958(82%)]	Training Perplexity: 14.429	Speed: 25645 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 617683956 get requests, put_count=617683957 evicted_count=834000 eviction_rate=0.00135021 and unsatisfied allocation rate=0.00135023
+[Epoch 13 | Step: 57230/62958(91%)]	Training Perplexity: 14.380	Speed: 25648 wps	Pad Ratio: 0.000
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 624881841 get requests, put_count=624881842 evicted_count=844000 eviction_rate=0.00135066 and unsatisfied allocation rate=0.00135068
+[Epoch 13 | Step: 62953/62958(100%)]	Training Perplexity: 14.330	Speed: 25653 wps	Pad Ratio: 0.000
+Epoch: 13 Train Perplexity: 14.330
+Epoch: 13 Valid Perplexity: 57.615
+Saving small/ep_14.ckpt
+
+real	215m32.548s
+user	376m1.456s
+sys	29m48.296s

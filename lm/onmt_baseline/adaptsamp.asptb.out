@@ -1,0 +1,84 @@
+[0m| Dictionary size 293220[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/train.txt: 25183481 tokens[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/valid.txt: 50325 tokens[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/test.txt: 49553 tokens[0m	
+[0m| epoch  0 |    11148 samples |      26 ms/batch |     5 min | train ppl 203.7 | valid ppl 119.9[0m	
+[0m| epoch  0 |    22296 samples |      26 ms/batch |    10 min | train ppl 128.3 | valid ppl  96.6[0m	
+[0m| epoch  0 |    33464 samples |      26 ms/batch |    15 min | train ppl 111.9 | valid ppl  86.7[0m	
+[0m| epoch  0 |    44608 samples |      26 ms/batch |    20 min | train ppl 103.7 | valid ppl  81.1[0m	
+[0m| epoch  0 |    55732 samples |      26 ms/batch |    25 min | train ppl  98.2 | valid ppl  77.1[0m	
+[0m| epoch  0 |    66815 samples |      27 ms/batch |    30 min | train ppl  93.8 | valid ppl  74.4[0m	
+[0m| epoch  0 |    77889 samples |      27 ms/batch |    35 min | train ppl  90.9 | valid ppl  72.1[0m	
+[0m| epoch  1 |    78699 samples |      26 ms/batch |    35 min | train ppl  89.5 | valid ppl  72.0 | test ppl  69.4[0m	
+[0m| epoch  1 |    89767 samples |      27 ms/batch |    40 min | train ppl  84.0 | valid ppl  69.6[0m	
+[0m| epoch  1 |   100882 samples |      26 ms/batch |    45 min | train ppl  80.8 | valid ppl  68.1[0m	
+[0m| epoch  1 |   112024 samples |      26 ms/batch |    50 min | train ppl  79.1 | valid ppl  67.2[0m	
+[0m| epoch  1 |   123144 samples |      26 ms/batch |    55 min | train ppl  78.3 | valid ppl  66.2[0m	
+[0m| epoch  1 |   134260 samples |      26 ms/batch |    60 min | train ppl  77.3 | valid ppl  65.4[0m	
+[0m| epoch  1 |   145375 samples |      26 ms/batch |    65 min | train ppl  76.0 | valid ppl  64.9[0m	
+[0m| epoch  1 |   156485 samples |      27 ms/batch |    70 min | train ppl  75.4 | valid ppl  64.0[0m	
+[0m| epoch  2 |   157398 samples |      26 ms/batch |    71 min | train ppl  75.1 | valid ppl  63.9 | test ppl  61.6[0m	
+[0m| epoch  2 |   168488 samples |      27 ms/batch |    76 min | train ppl  72.1 | valid ppl  63.0[0m	
+[0m| epoch  2 |   179600 samples |      26 ms/batch |    81 min | train ppl  70.5 | valid ppl  62.4[0m	
+[0m| epoch  2 |   190708 samples |      27 ms/batch |    86 min | train ppl  69.8 | valid ppl  62.0[0m	
+[0m| epoch  2 |   201811 samples |      27 ms/batch |    91 min | train ppl  69.5 | valid ppl  61.9[0m	
+[0m| epoch  2 |   212901 samples |      27 ms/batch |    96 min | train ppl  69.1 | valid ppl  61.6[0m	
+[0m| epoch  2 |   223996 samples |      27 ms/batch |   101 min | train ppl  68.3 | valid ppl  61.4[0m	
+[0m| epoch  2 |   235084 samples |      27 ms/batch |   106 min | train ppl  68.1 | valid ppl  60.8[0m	
+[0m| epoch  3 |   236097 samples |      26 ms/batch |   106 min | train ppl  67.5 | valid ppl  60.8 | test ppl  58.5[0m	
+[0m| epoch  3 |   247198 samples |      27 ms/batch |   111 min | train ppl  66.0 | valid ppl  60.2[0m	
+[0m| epoch  3 |   258292 samples |      27 ms/batch |   116 min | train ppl  64.9 | valid ppl  59.9[0m	
+[0m| epoch  3 |   269397 samples |      27 ms/batch |   121 min | train ppl  64.4 | valid ppl  59.6[0m	
+[0m| epoch  3 |   280490 samples |      27 ms/batch |   126 min | train ppl  64.3 | valid ppl  59.6[0m	
+[0m| epoch  3 |   291588 samples |      27 ms/batch |   131 min | train ppl  64.1 | valid ppl  59.4[0m	
+[0m| epoch  3 |   302671 samples |      27 ms/batch |   136 min | train ppl  63.5 | valid ppl  59.3[0m	
+[0m| epoch  3 |   313751 samples |      27 ms/batch |   141 min | train ppl  63.5 | valid ppl  59.0[0m	
+[0m| epoch  4 |   314796 samples |      26 ms/batch |   142 min | train ppl  63.1 | valid ppl  58.9 | test ppl  56.9[0m	
+[0m| epoch  4 |   325895 samples |      27 ms/batch |   147 min | train ppl  61.9 | valid ppl  58.6[0m	
+[0m| epoch  4 |   336988 samples |      27 ms/batch |   152 min | train ppl  61.1 | valid ppl  58.6[0m	
+[0m| epoch  4 |   348075 samples |      27 ms/batch |   157 min | train ppl  60.7 | valid ppl  58.3[0m	
+[0m| epoch  4 |   359162 samples |      27 ms/batch |   162 min | train ppl  60.7 | valid ppl  58.3[0m	
+[0m| epoch  4 |   370249 samples |      27 ms/batch |   167 min | train ppl  60.5 | valid ppl  58.2[0m	
+[0m| epoch  4 |   381352 samples |      27 ms/batch |   172 min | train ppl  60.1 | valid ppl  58.3[0m	
+[0m| epoch  4 |   392450 samples |      27 ms/batch |   177 min | train ppl  60.1 | valid ppl  58.0[0m	
+[0m| epoch  5 |   393495 samples |      27 ms/batch |   178 min | train ppl  59.7 | valid ppl  58.1 | test ppl  55.9[0m	
+[0m| epoch  5 |   404586 samples |      27 ms/batch |   183 min | train ppl  58.5 | valid ppl  57.3[0m	
+[0m| epoch  5 |   415667 samples |      27 ms/batch |   188 min | train ppl  57.3 | valid ppl  57.2[0m	
+[0m| epoch  5 |   426765 samples |      27 ms/batch |   193 min | train ppl  56.8 | valid ppl  57.1[0m	
+[0m| epoch  5 |   437861 samples |      27 ms/batch |   198 min | train ppl  56.6 | valid ppl  57.1[0m	
+[0m| epoch  5 |   448941 samples |      27 ms/batch |   203 min | train ppl  56.2 | valid ppl  57.1[0m	
+[0m| epoch  5 |   460019 samples |      27 ms/batch |   208 min | train ppl  55.6 | valid ppl  57.3[0m	
+[0m| epoch  5 |   471104 samples |      27 ms/batch |   213 min | train ppl  55.2 | valid ppl  57.2[0m	
+[0m| epoch  6 |   472194 samples |      26 ms/batch |   213 min | train ppl  54.9 | valid ppl  57.2 | test ppl  55.0[0m	
+[0m| epoch  6 |   483493 samples |      26 ms/batch |   218 min | train ppl  56.2 | valid ppl  56.5[0m	
+[0m| epoch  6 |   494790 samples |      26 ms/batch |   223 min | train ppl  55.2 | valid ppl  56.6[0m	
+[0m| epoch  6 |   506095 samples |      26 ms/batch |   228 min | train ppl  54.8 | valid ppl  56.5[0m	
+[0m| epoch  6 |   517383 samples |      26 ms/batch |   233 min | train ppl  54.5 | valid ppl  56.5[0m	
+[0m| epoch  6 |   528680 samples |      26 ms/batch |   238 min | train ppl  54.2 | valid ppl  56.5[0m	
+[0m| epoch  6 |   539983 samples |      26 ms/batch |   243 min | train ppl  53.4 | valid ppl  56.7[0m	
+[0m| epoch  7 |   550893 samples |      26 ms/batch |   248 min | train ppl  53.0 | valid ppl  56.8 | test ppl  54.6[0m	
+[0m| epoch  7 |   562189 samples |      26 ms/batch |   253 min | train ppl  55.0 | valid ppl  56.3[0m	
+[0m| epoch  7 |   573474 samples |      26 ms/batch |   258 min | train ppl  54.1 | valid ppl  56.3[0m	
+[0m| epoch  7 |   584774 samples |      26 ms/batch |   263 min | train ppl  53.8 | valid ppl  56.3[0m	
+[0m| epoch  7 |   596063 samples |      26 ms/batch |   268 min | train ppl  53.4 | valid ppl  56.3[0m	
+[0m| epoch  7 |   607344 samples |      26 ms/batch |   273 min | train ppl  53.2 | valid ppl  56.3[0m	
+[0m| epoch  7 |   618626 samples |      26 ms/batch |   278 min | train ppl  52.4 | valid ppl  56.4[0m	
+[0m| epoch  8 |   629592 samples |      26 ms/batch |   283 min | train ppl  52.1 | valid ppl  56.5 | test ppl  54.4[0m	
+[0m| epoch  8 |   640879 samples |      26 ms/batch |   288 min | train ppl  54.5 | valid ppl  56.2[0m	
+[0m| epoch  8 |   652168 samples |      26 ms/batch |   293 min | train ppl  53.7 | valid ppl  56.2[0m	
+[0m| epoch  8 |   663463 samples |      26 ms/batch |   298 min | train ppl  53.2 | valid ppl  56.2[0m	
+[0m| epoch  8 |   674752 samples |      26 ms/batch |   303 min | train ppl  53.0 | valid ppl  56.2[0m	
+[0m| epoch  8 |   686038 samples |      26 ms/batch |   308 min | train ppl  52.7 | valid ppl  56.2[0m	
+[0m| epoch  8 |   697320 samples |      26 ms/batch |   313 min | train ppl  52.0 | valid ppl  56.3[0m	
+[0m| epoch  9 |   708291 samples |      26 ms/batch |   318 min | train ppl  51.6 | valid ppl  56.3 | test ppl  54.2[0m	
+[0m| epoch  9 |   719581 samples |      26 ms/batch |   323 min | train ppl  54.3 | valid ppl  56.2[0m	
+[0m| epoch  9 |   730842 samples |      26 ms/batch |   328 min | train ppl  53.4 | valid ppl  56.2[0m	
+[0m| epoch  9 |   742123 samples |      26 ms/batch |   333 min | train ppl  53.0 | valid ppl  56.2[0m	
+[0m| epoch  9 |   753406 samples |      26 ms/batch |   338 min | train ppl  52.7 | valid ppl  56.2[0m	
+[0m| epoch  9 |   764686 samples |      26 ms/batch |   343 min | train ppl  52.5 | valid ppl  56.2[0m	
+[0m| epoch  9 |   775967 samples |      26 ms/batch |   348 min | train ppl  51.7 | valid ppl  56.2[0m	
+[0m| epoch 10 |   786990 samples |      26 ms/batch |   353 min | train ppl  51.4 | valid ppl  56.3 | test ppl  54.2[0m	
+
+real	354m14.518s
+user	304m42.712s
+sys	49m33.012s

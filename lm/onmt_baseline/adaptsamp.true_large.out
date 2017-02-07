@@ -1,0 +1,21 @@
+[0m| Dictionary size 293220[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/train.txt: 25183481 tokens[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/valid.txt: 50325 tokens[0m	
+[0m| Load file /home/moses/dataset/onmt_baseline_en/test.txt: 49553 tokens[0m	
+THCudaCheck FAIL file=/home/moses/torch-20170129/extra/cutorch/lib/THC/generic/THCStorage.cu line=66 error=2 : out of memory
+/home/moses/torch-20170129/install/bin/luajit: ...e/moses/torch-20170129/install/share/lua/5.1/nn/THNN.lua:110: cuda runtime error (2) : out of memory at /home/moses/torch-20170129/extra/cutorch/lib/THC/generic/THCStorage.cu:66
+stack traceback:
+	[C]: in function 'v'
+	...e/moses/torch-20170129/install/share/lua/5.1/nn/THNN.lua:110: in function 'LogSoftMax_updateOutput'
+	...s/torch-20170129/install/share/lua/5.1/nn/LogSoftMax.lua:4: in function 'updateOutput'
+	...70129/install/share/lua/5.1/nn/CrossEntropyCriterion.lua:19: in function 'updateOutput'
+	./utils/AdaptiveLoss.lua:46: in function 'forward'
+	...29/install/share/lua/5.1/torchnet/engine/optimengine.lua:104: in function 'train'
+	train_big_lstm.lua:282: in main chunk
+	[C]: in function 'dofile'
+	...h-20170129/install/lib/luarocks/rocks/trepl/scm-1/bin/th:150: in main chunk
+	[C]: at 0x00406670
+
+real	1m2.218s
+user	0m48.628s
+sys	0m13.648s

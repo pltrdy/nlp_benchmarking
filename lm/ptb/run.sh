@@ -48,15 +48,15 @@ as_conf_sm=" -nlayer 2 -nhid 200 -cutoff 2000"
 as_conf_lg=" -nlayer 2 -nhid 1500 -bptt 35 -dropout 0.65 -maxepoch 20 -cutoff 2000"
 as_conf_truelg=" -nlayer 2 -nhid 1500 -bptt 35 -dropout 0.65 -maxepoch 20 -cutoff 2000 -isz 1500"
 cd $adaptsoft_path
-#eval $(run_adaptsamp "asptb" "$as_conf_asptb")
-#eval $(run_adaptsamp "small" "$as_conf_sm")
-#eval $(run_adaptsamp "large" "$as_conf_lg")
+eval $(run_adaptsamp "asptb" "$as_conf_asptb")
+eval $(run_adaptsamp "small" "$as_conf_sm")
+eval $(run_adaptsamp "large" "$as_conf_lg")
 eval $(run_adaptsamp "true_large" "$as_conf_truelg")
 
 
 cd $pltrdy_path
-#eval $(run_pltrdy "small" "--config small")
-#eval $(run_pltrdy "large" "--config large")
-#eval $(run_pltrdy "asptb" "--config small --num_layers 1 --hidden_size 512 --keep_prob 0.5 --batch_size 64")
+eval $(run_pltrdy "small" "--config small")
+eval $(run_pltrdy "large" "--config large")
+eval $(run_pltrdy "asptb" "--config small --num_layers 1 --hidden_size 512 --keep_prob 0.5 --batch_size 64")
 
 cd $cur_dir

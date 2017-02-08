@@ -17,15 +17,15 @@
 
 
 ## Results
-[[go to execution script](run_ptb_benchmark.sh)]
 
 |         Model         | train ppl | valid ppl | test ppl | epoch | time |
 |-----------------------|-----------|-----------|----------|-------|------|
 | adapsoft - as-ptb     |  51.4     |  56.3     |  54.2    | 10    | 354m |
 | ada - sm              |  47.9     |  63.5     |  61.1    | 3     | 163m |   
 | ada - lg              |  41.6     |  45.4     |  44.1    | 10    | 1300m|   
-| pltrdy - sm           |  14.37    |  57.61    |          | 13    | 215m |   
-| pltrdy - lg           |  16.38    |  44.86    |          | 35    | ~2500m * |   
+| pltrdy - as-ptb       |  19.53    |  53.15    |  51.88   | 13    | 134m |   
+| pltrdy - sm           |  14.37    |  57.61    |  56.29   | 13    | 215m |   
+| pltrdy - lg           |  16.38    |  44.86    |  44.14   | 35    | ~2500m * |   
 
 ( * ): Estimate
 

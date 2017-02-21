@@ -27,8 +27,11 @@ see [run.sh](run.sh)
 * **0) Vocab (100k/60k); batchsize: 64:**   
 OOM
 * **1) Seq (900/55); Vocab (100k/60k); batchsize: 32:**   
-  * RAM: 7981MiB
+  * RAM: 7981MiB/8108MiB (too much to run with 2 GPUs considering overhead)
   * around 10/12k token/s
+     * 15:49:50 - Start training: 
+     * 17:33:27 - Ep.1: tr: 706.55; val: 433.79
+     
 * **2) Seq (1000/80); Vocab (150k/80k); batchsize: 32:**   
   * OOM
 

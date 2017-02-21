@@ -2,7 +2,7 @@
 *Using Pyramidal Deep Bidirectionnal RNN (aka.  pdbrnn) from [OpenNMT#136](https://github.com/OpenNMT/OpenNMT/pull/136) for long sequence summarization.*
 
 ## Dataset
-*the dataset is not mine, I can't share it publicly.*
+*dataset: all stories, from onmt discussions*
 
 * volume 
 

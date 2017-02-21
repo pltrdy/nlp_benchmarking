@@ -1,5 +1,7 @@
 # Summarization using Pyramidal Deep Bidirectionnal RNN
-*Using Pyramidal Deep Bidirectionnal RNN (aka.  pdbrnn) from [OpenNMT#136](https://github.com/OpenNMT/OpenNMT/pull/136) for long sequence summarization.*
+*Using Pyramidal Deep Bidirectionnal RNN (aka.  pdbrnn) from [OpenNMT#136](https://github.com/OpenNMT/OpenNMT/pull/136) for long sequence summarization.* 
+
+Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 
 ## Dataset
 *dataset: all stories, from onmt discussions*

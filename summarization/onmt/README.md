@@ -21,6 +21,7 @@
  
 
 ## Execution
+see [run.sh](run.sh)
 
 ## Results
 * **0) Vocab (100k/60k); batchsize: 64:**   

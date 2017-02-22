@@ -24,12 +24,12 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 
 ## Configuration
 
-| SeqLen (src/tgt) | VocSize (src/tgt) | Batchsize |`-pdbrn`| gpu mem | Tokens/s | #epoch | ppl | time |
-|------------------|-------------------|-----------|--------|---------|----------|--------|-----|------|
-|     900/55       |    100k/60k       |   32      |    y   | 7982MiB | ~12k     |        |     |      |
-|     900/55       |    100k/60k       |   16      |    y   | ----MiB | ---k     |  ---   | --- | ---  |
-|     900/55       |    100k/60k       |   16      |    n   | 7234MiB | ~9k      |        |     |      |
-|                  |                   |           |        |         |          |        |     |      |
+| SeqLen (src/tgt) | VocSize (src/tgt) | Batchsize |`-pdbrn`| gpu mem | Tokens/s | #epoch |ppl(tr/val)| time |
+|------------------|-------------------|-----------|--------|---------|----------|--------|-----------|------|
+|     900/55       |    100k/60k       |   32      |    y   | 7982MiB | ~12k     |   13   |52.1/63.5  | 23h45|
+|     900/55       |    100k/60k       |   16      |    y   | ----MiB | ---k     |  ---   | ---       | ---  |
+|     900/55       |    100k/60k       |   16      |    n   | 7234MiB | ~9k      |        |           |      |
+|                  |                   |           |        |         |          |        |           |      |
 
 
 * We tried to used full dataset (no seqlen constraint) which leads to: seqlen  src: 2918; tgt: 2104

@@ -6,12 +6,12 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 ## Dataset
 *dataset: all stories, from onmt discussions*
 
-* volume 
+* Overview 
 
- |  set  |  #words  | #lines  | avg w/l | vocab_size |
- |-------|----------|---------|---------|------------|
- | tr-src|235 512 661|287 113 |  820    |   339472   |
- | tr-tgt|15 961 30 |287 113  |  55     |   108991   |
+ |  set  |   #words  | #lines  | avg w/l | vocab_size |
+ |-------|-----------|---------|---------|------------|
+ | tr-src|235 512 661|287 113  |  820    |   339472   |
+ | tr-tgt|15 961 30  |287 113  |  55     |   108991   |
 
 
 * Sequence Length (max seq len: source = 2918; target = 2104) 
@@ -28,9 +28,10 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 |-------------|------------------|-------------------|-----------|---------|----------|--------|-----------|------|
 |onmt-pdbrnn  |     900/55       |    100k/60k       |   32      | 7982MiB | ~12k     |   13   |52.1/63.5  | 23h45|
 |onmt-pdbrnn  |     900/55       |    100k/60k       |   16      | ----MiB | ---k     |  ---   | ---       | ---  |
-|onmt         |     900/55       |    100k/60k       |   16      | 7234MiB | ~9k      |        |           |      |
-|pyonmt       |                  |                   |           |  ~5G    |  1.2k    |        |           |      |
+|onmt         |     900/55       |    100k/60k       |   16      | 7234MiB | ~9k      |  13    |7.23/18.8  | 29h28|
+|*pyonmt*       |     900/55       |    100k/60k       |   16      | 4660MiB |  1.2k    |  4   |*67.4/41.4*  | ---  |
 
+*model*: still running
 
 * We tried to used full dataset (no seqlen constraint) which leads to: seqlen  src: 2918; tgt: 2104
   * voc: 100k/60k, bs: 1 => OOM

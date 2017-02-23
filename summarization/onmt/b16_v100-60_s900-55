@@ -2153,4 +2153,5 @@ z[02/22/17 16:32:46 INFO] Epoch 3 ; Iteration 5450/7951 ; Learning rate 1.0000 ;
 [02/23/17 15:29:47 INFO] Epoch 13 ; Iteration 7900/7951 ; Learning rate 0.0625 ; Source tokens/s 9234 ; Perplexity 12.14	
 [02/23/17 15:30:33 INFO] Epoch 13 ; Iteration 7950/7951 ; Learning rate 0.0625 ; Source tokens/s 8593 ; Perplexity 11.95	
 [02/23/17 15:30:34 INFO] Epoch 13 ; Iteration 7951/7951 ; Learning rate 0.0625 ; Source tokens/s 7223 ; Perplexity 7.23	
+[02/23/17 15:38:24 INFO] Validation perplexity: 18.80	
 [02/23/17 15:38:24 INFO] Saving checkpoint to 'summ_nopdbrnn_model_epoch13_18.80.t7'...

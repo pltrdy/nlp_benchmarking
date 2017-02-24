@@ -25,6 +25,8 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 ## Results
 *click to see full output*
 
+**Hardware:** Nvidia GTX 1080 (driver 367.57)
+
 |                | SeqLen (src/tgt) | VocSize (src/tgt) | Batchsize | gpu mem | Tokens/s | #epoch |ppl(tr/val)| time |
 |----------------|------------------|-------------------|-----------|---------|----------|--------|-----------|------|
 |[onmt-pdbrnn][0]|     900/55       |    100k/60k       |   32      | 7982MiB | ~12k     |   13   |52.1/63.5  | 23h45|

@@ -12,5 +12,5 @@ Comparing tools & techniques in NLP.    Contributions are welcome!
 
 ## Automatic Text Summarization
 -------------------------------
-
+* Abstractive Text Summarization with Multi-Sentence I/O Using ONMT (+PyONMT): [[go to benchmark]](summarization/onmt)
 

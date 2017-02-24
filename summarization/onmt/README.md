@@ -28,15 +28,12 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 |                | SeqLen (src/tgt) | VocSize (src/tgt) | Batchsize | gpu mem | Tokens/s | #epoch |ppl(tr/val)| time |
 |----------------|------------------|-------------------|-----------|---------|----------|--------|-----------|------|
 |[onmt-pdbrnn][0]|     900/55       |    100k/60k       |   32      | 7982MiB | ~12k     |   13   |52.1/63.5  | 23h45|
-|onmt-pdbrnn     |     900/55       |    100k/60k       |   16      | 3822MiBMiB | ---k     |  ---   | ---       | ---  |
+|onmt-pdbrnn     |     900/55       |    100k/60k       |   16      | 3822MiB | ---k     |  ---   | ---       | ---  |
 |[onmt][2]       |     900/55       |    100k/60k       |   16      | 7234MiB | ~9k      |  13    |7.23/18.8  | 29h28|
-|*pyonmt*        |     900/55       |    100k/60k       |   16      | 4660MiB |  1.2k    |  4   |*67.4/41.4*  | ---  |
+|[pyonmt][3]     |     900/55       |    100k/60k       |   16      | 4660MiB |  16k     |  13    |14.4/20.2  | 16h18  |
 
 *model*: still running
 
-Full outputs:
-* [onmt-pdbrnn b]
-* [onmt
 
 * We tried to used full dataset (no seqlen constraint) which leads to: seqlen  src: 2918; tgt: 2104
   * voc: 100k/60k, bs: 1 => OOM
@@ -44,3 +41,4 @@ Full outputs:
 
 [0]: p_b32_v100-60_s900-55
 [2]: b16_v100-60_s900-55
+[3]: pu_b16_v100-60_s900-55

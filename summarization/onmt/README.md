@@ -23,7 +23,7 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
  
 
 ## Results
-*click to see full output*
+*click on configuration name to see full output and on perplexities to see prediction on test set*
 
 **Hardware:** Nvidia GTX 1080 (driver 367.57)
 
@@ -31,7 +31,7 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 |----------------|------------------|-------------------|-----------|---------|----------|--------|-----------|------|
 |[onmt-pdbrnn][0]|     900/55       |    100k/60k       |   32      | 7982MiB | ~12k     |   13   |52.1/63.5  | 23h45|
 |onmt-pdbrnn     |     900/55       |    100k/60k       |   16      | 3822MiB | ---k     |  ---   | ---       | ---  |
-|[onmt][2]       |     900/55       |    100k/60k       |   16      | 7234MiB | ~9k      |  13    |7.23/18.8  | 29h28|
+|[onmt][2]       |     900/55       |    100k/60k       |   16      | 7234MiB | ~9k      |  13    |[7.23/18.8][4]  | 29h28|
 |[pyonmt][3]     |     900/55       |    100k/60k       |   16      | 4660MiB |  16k     |  13    |14.4/20.2  | 16h18  |
 
 
@@ -39,3 +39,4 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 [0]: p_b32_v100-60_s900-55
 [2]: b16_v100-60_s900-55
 [3]: pu_b16_v100-60_s900-55
+[4]: pred_b16_v100-60_s900-55.txt

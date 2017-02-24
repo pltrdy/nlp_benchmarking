@@ -22,7 +22,7 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
  |   1000/80        |    191508       |   95605   |    66.7    |
  
 
-## Configuration
+## Results
 *click to see full output*
 
 |                | SeqLen (src/tgt) | VocSize (src/tgt) | Batchsize | gpu mem | Tokens/s | #epoch |ppl(tr/val)| time |
@@ -32,12 +32,7 @@ Related Paper: [[pdf]](http://arxiv.org/pdf/1508.01211.pdf)
 |[onmt][2]       |     900/55       |    100k/60k       |   16      | 7234MiB | ~9k      |  13    |7.23/18.8  | 29h28|
 |[pyonmt][3]     |     900/55       |    100k/60k       |   16      | 4660MiB |  16k     |  13    |14.4/20.2  | 16h18  |
 
-*model*: still running
 
-
-* We tried to used full dataset (no seqlen constraint) which leads to: seqlen  src: 2918; tgt: 2104
-  * voc: 100k/60k, bs: 1 => OOM
- * 900/55; 100k/60k; 32 without -pdbrnn => OOM  
 
 [0]: p_b32_v100-60_s900-55
 [2]: b16_v100-60_s900-55

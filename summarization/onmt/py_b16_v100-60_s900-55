@@ -1,4 +1,4 @@
-$./run.sh 1
+11:36:28 $ ./run.sh 1
 
 Namespace(batch_size=16, brnn=False, brnn_merge='concat', cuda=True, curriculum=False, data='summ_nopdbrnn-train.pt', dropout=0.3, epochs=13, input_feed=1, layers=2, learning_rate=1, learning_rate_decay=0.5, log_interval=50, max_generator_batches=32, max_grad_norm=5, optim='sgd', param_init=0.1, pre_word_vecs_dec=None, pre_word_vecs_enc=None, rnn_size=500, save_model='summ_nopdbrnn_model', start_decay_at=8, start_epoch=1, train_from=None, word_vec_size=500)
 Loading data from 'summ_nopdbrnn-train.pt'
@@ -2028,3 +2028,4 @@ Epoch 13,  7500/ 7534 batches; perplexity:  13.74; 16129 Source tokens/s
 Train perplexity: 14.4859
 Validation perplexity: 20.2663
 Decaying learning rate to 0.015625
+03:54:59 $ 

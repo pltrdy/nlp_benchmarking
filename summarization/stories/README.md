@@ -25,14 +25,15 @@
 * install rouge:
   * `sudo pip3 install rouge`
   * https://github.com/pltrdy/rouge
- 
-## Results
+  
+  
+## Results  
 
 **Hardware:** Nvidia GTX 1080 (driver 367.57)
 
 |                | SeqLen (src/tgt) | VocSize (src/tgt) | Batchsize | gpu mem | Tokens/s | #epoch |ppl| time | rouge |
 |----------------|------------------|-------------------|-----------|---------|----------|--------|-----------|------|-------|
-|onmt-3x800      |  700/50          |                   |  16       | 6080MiB | ~5000    |        |           |      |29,6-10,6-17,3|
+|onmt-3x800      |  700/50          |                   |  16       | 6080MiB | ~5000    |   13   |           |      |29,6-10,6-17,3|
 |                |                  |                   |           |         |          |        |           |      |       |
 |                |                  |                   |           |         |          |        |           |      |       |
 |                |                  |                   |           |         |          |        |           |      |       |

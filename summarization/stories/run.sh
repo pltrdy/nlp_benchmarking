@@ -5,9 +5,9 @@
 # License MIT
 #
 
+#NOTE: You must set a $SUMMARY_STORIES_DATA variable in order to use it
 
-# TODO test is GPU is present or not
-decode_cpu=false
+
 
 data_path="./data"
 tr_src="$data_path/all_stories_all_highlights-src-train.txt"
@@ -51,21 +51,6 @@ param=$1
 default=0
 stage=${param:=$default}
 
-# if you want to run without training and use an existing model in the "exp" folder set notrain to true
-notrain=false
-
-# making these variables to make replication easier for other languages
-sl=fr
-tl=en
-
-# Data download and preparation
-
-if [ $stage -le 0 ]; then
-  if [ ! -f learn_bpe.py ]; then
-    wget https://raw.githubusercontent.com/rsennrich/subword-nmt/master/learn_bpe.py
-  fi
-fi
-
 exp="exp"
 mkdir -p "$exp"
 
@@ -83,7 +68,20 @@ if [ $stage -le 3 ]; then
   th train.lua -data exp/data-train.t7 -save_model summ_model -gpuid $gpuid -max_batch_size 16 -layers 3 -rnn_size 800
 fi
 
+model=$(ls -lst | grep summ_model_epoch | awk '{print $NF}' | head -n 1)
+pred="pred.txt"
+test_src="./data/all_stories_all_highlights-src-test.txt"
+test_tgt="./data/all_stories_all_highlights-targ-test.txt"
+
 if [ $stage -le 4 ]; then
-  echo "$0: translation"
-  #th translate.lua -model summ_model_epoch13_54.59.t7 -src ./data/all_stories_all_highlights-src-test.txt.tok -gpuid 2 -batch_size 8
+  echo "$0: translation using model: $model"
+  th translate.lua -model $model -src $test_src  -gpuid $gpuid -batch_size 8 -output "$pred"
+fi
+
+if [ $stage -le 5 ]; then
+  echo "$0: rouge scoring"
+  echo "$0: Prediction file: $pred"
+  echo "$0: Reference file: $test_tgt"
+  rouge -f "$pred" "$test_tgt" --avg | tee "pred_scores.json"
+  echo "$0: Done"
 fi

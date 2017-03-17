@@ -2,7 +2,7 @@
 
 
 ## Dataset
-*dataset: all stories, from onmt discussions*
+*dataset: DMQA - Stories*
 
 * Overview 
 
